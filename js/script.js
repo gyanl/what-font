@@ -97,6 +97,35 @@ function setTitleAndBody() {
   document.getElementById("body-text").style.fontFamily = bodyFont;
 }
 
+function alignLeft() {
+  document.getElementById("title-text").style.textAlign = "left";
+  document.getElementById("body-text").style.textAlign = "left";
+}
+
+function alignCenter() {
+  document.getElementById("title-text").style.textAlign = "center";
+  document.getElementById("body-text").style.textAlign = "center";
+}
+
+function alignRight() {
+  document.getElementById("title-text").style.textAlign = "right";
+  document.getElementById("body-text").style.textAlign = "right";
+}
+
+function textBigger() {
+  document.getElementById("title-text").style.fontSize = "2.6em";
+  document.getElementById("title-text").style.lineHeight = "1em";
+  document.getElementById("body-text").style.fontSize = "1.2em";
+  document.getElementById("body-text").style.lineHight = "2.6em";
+}
+
+function textSmaller() {
+  document.getElementById("title-text").style.fontSize = "1.5em";
+  document.getElementById("title-text").style.lineHeight = ".8em";
+  document.getElementById("body-text").style.fontSize = ".8em";
+  document.getElementById("body-text").style.lineHight = "1em";
+}
+
 function init() {
   setTitleFont();
   setBodyFont();
