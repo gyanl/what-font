@@ -37,6 +37,10 @@ var fonts = [
 ];
 var numFonts = fonts.length;
 
+function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+};
+
 function genColor() {
     var a = "";
     for (var i = 0; i < 3; i++)
@@ -139,4 +143,9 @@ function init() {
   setBodyFont();
   document.body.style.background = "black";
   updateDescription();
+
+  if isMobileDevice() {
+    document.getElementById("body-text").contentEditable = "false";
+    document.getElementById("title-text").contentEditable = "false";
+  }
 }
