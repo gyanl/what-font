@@ -27,7 +27,7 @@ var fonts = [
   "Libre Baskerville",
   "Libre Franklin",
   "Quicksand",
-  "Karla";
+  "Karla",
   "Grenze",
   "EB Garamond",
   "IBM Plex Serif",
