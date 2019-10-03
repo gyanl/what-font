@@ -1,0 +1,88 @@
+/**
+* @Author: gyanl
+* @Date:   2017-10-01T09:56:56+05:30
+* @Last modified by:   saxten2011
+* @Last modified time: 2017-10-01T20:00:14+05:30
+*/
+
+var titleFont = "";
+var titleFontLink ="";
+var bodyFont = "";
+var bodyFontLink = "";
+var bgColor = "";
+
+var mytitle = document.getElementById("title-text");
+var mybody = document.getElementById("body-text");
+var fonts = [
+  "Lato",
+  "Montserrat",
+  "Rubik",
+  "Merriweather",
+  "Poppins",
+  "Space Mono",
+  "Barlow",
+  "Work Sans",
+  "Open Sans Condensed",
+  "Fira Sans",
+  "Libre Baskerville",
+  "Libre Franklin",
+  "Quicksand",
+  "Karla"
+];
+var numFonts = fonts.length;
+
+function genColor() {
+    var a = "";
+    for (var i = 0; i < 3; i++)
+        a = a.concat(Math.floor(Math.random() * 255).toString(16));
+
+    if (a.length < 6) {
+        for (var i = 0; i < (6 - a.length); i++)
+            a = "0" + a;
+    }
+    return "#" + a;
+}
+
+function randomiseBackground() {
+  bgColor = genColor();
+  document.body.style.background = bgColor;
+}
+
+function updateDescription() {
+  document.getElementById("info").innerHTML = "You are using <a id='titlefontlink' target='_blank' rel='noopener noreferrer'>" + titleFont + "</a> with <a id='bodyfontlink' target='_blank' rel='noopener noreferrer'>" + bodyFont + "</a>. <br>Double click text to change font.";
+
+  titleFontLink = "https://fonts.google.com/specimen/" + titleFont;
+  bodyFontLink = "https://fonts.google.com/specimen/" + bodyFont;
+
+  document.getElementById('titlefontlink').setAttribute('href', titleFontLink);
+  document.getElementById('bodyfontlink').setAttribute('href', bodyFontLink);
+
+}
+
+function randomiseFont() {
+  var numba = Math.floor(Math.random()*numFonts);
+  var randomFont = fonts[numba];
+  return randomFont;
+}
+
+
+function setTitleFont() {
+  titleFont = randomiseFont();
+  document.getElementById("title-text").style.fontFamily = titleFont;
+  randomiseBackground();
+  updateDescription();
+}
+
+function setBodyFont() {
+  bodyFont = randomiseFont();
+  document.getElementById("body-text").style.fontFamily = bodyFont;
+  randomiseBackground();
+  updateDescription();
+}
+
+function init() {
+  setTitleFont();
+  setBodyFont();
+  randomiseBackground();
+  updateDescription();
+}
