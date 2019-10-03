@@ -95,6 +95,8 @@ function setTitleAndBody() {
 
   bodyFont = randomiseFont();
   document.getElementById("body-text").style.fontFamily = bodyFont;
+
+  updateDescription();
 }
 
 function alignLeft() {
@@ -129,6 +131,6 @@ function textSmaller() {
 function init() {
   setTitleFont();
   setBodyFont();
-  randomiseBackground();
+  document.body.style.background = "black";
   updateDescription();
 }
