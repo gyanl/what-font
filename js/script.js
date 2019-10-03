@@ -80,6 +80,23 @@ function setBodyFont() {
   updateDescription();
 }
 
+function switchFonts() {
+  var temp = bodyFont;
+  bodyFont = titleFont;
+  titleFont = temp;
+  document.getElementById("body-text").style.fontFamily = bodyFont;
+  document.getElementById("title-text").style.fontFamily = titleFont;
+  updateDescription();
+}
+
+function setTitleAndBody() {
+  titleFont = randomiseFont();
+  document.getElementById("title-text").style.fontFamily = titleFont;
+
+  bodyFont = randomiseFont();
+  document.getElementById("body-text").style.fontFamily = bodyFont;
+}
+
 function init() {
   setTitleFont();
   setBodyFont();
