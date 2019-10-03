@@ -27,7 +27,13 @@ var fonts = [
   "Libre Baskerville",
   "Libre Franklin",
   "Quicksand",
-  "Karla"
+  "Karla";
+  "Grenze",
+  "EB Garamond",
+  "IBM Plex Serif",
+  "Ultra",
+  "Gentium Book Basic",
+  "IBM Plex Mono"
 ];
 var numFonts = fonts.length;
 
