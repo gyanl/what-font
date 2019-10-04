@@ -18,7 +18,7 @@ var fonts = [
   "Montserrat",
   "Rubik",
   "Merriweather",
-  "Poppins",
+  "DM Sans",
   "Space Mono",
   "Barlow",
   "Work Sans",
@@ -138,7 +138,7 @@ function init() {
   setBodyFont();
   document.body.style.background = "black";
   updateDescription();
-  
+
   if (screen.width<540) {
     document.getElementById("body-text").contentEditable = "false";
     document.getElementById("title-text").contentEditable = "false";
