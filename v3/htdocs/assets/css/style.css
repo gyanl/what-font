@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background: #E1E7E4;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.header{
+  margin: 32px 0px 32px 32px;
+}
+
+.title{
+font-weight: 800;
+font-size: 24px;
+color: #283F33;
+text-transform:uppercase;
+}
+
+.subtitle{
+font-size: 24px;
+color: #283F33;
+}
+
+input{
+  width: 450px;
+  border: none;
+  font-weight: 300;
+  font-size: 20px;
+  color: #A9B4AF;
+  padding: 20px 28px 20px 28px;
+  background: #ffffff;
+  box-shadow: 0 3px 10px 0 rgba(189,207,212,0.50);
+  border-radius: 37px;
+}
+
+input:selected{
+  border: none;
+}
+
+.fonts{
+  display: inline-block;
+}
+
+.font-card {
+  background: #ffffff;
+  text-decoration: none;
+  margin: 2px 2px 10px 2px;
+  display: inline-block;
+  border: 1px solid #eee;
+  width: 320px;
+  height: auto;
+  border-radius: 14px;
+  transition: .2s;
+  margin: 8px;
+}
+
+.font-card:hover {
+  transform: scale3d(0.98, 0.98, 1);
+  border: 1px solid #ddd;
+}
+
+.card-header{
+  padding: 18px 12px 12px 24px;
+  background: rgba(92,231,157,0.05);
+  border-radius: 8px 8px 0 0;
+}
+
+.font-name{
+  line-height: 0px;
+  font-size: 24px;
+}
+
+.num-styles{
+  line-height: 0px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.sample-text{
+  font-size: 32px;
+  line-height: 44px;
+  padding: 0px 24px 8px 24px;
+}
+
+.footer {
+    bottom: 0;
+    visibility: visible;
+    background-image: linear-gradient(-180deg, transparent 0%, black 100%);
+    color: #fff;
+    padding-bottom: 10px;
+}
