@@ -58,7 +58,7 @@ readTextFile("http://gyanl.com/what-font/v2/js/fontAttributes.json", function(te
 function setDirections() {
   console.log("This works.");
   for (x in fontData) {
-    console.log("x.name[0]");
+    console.log(x);
   }
   //(fontdata.name[1]);
 }
