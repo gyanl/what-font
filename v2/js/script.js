@@ -11,7 +11,6 @@ var bodyFont = "";
 var bodyFontLink = "";
 var bgColor = "";
 
-var mytitle = document.getElementById("title-text");
 var mybody = document.getElementById("body-text");
 var fonts = [
   "Lato",
@@ -51,10 +50,15 @@ function readTextFile(file, callback) {
     rawFile.send(null);
 }
 
-readTextFile("js/fontAttributes.json", function(text){
-    var data = JSON.parse(text);
-    console.log(data);
+readTextFile("http://gyanl.com/what-font/v2/js/fontAttributes.json", function(text){
+    var fontdata = JSON.parse(text);
+    console.log(fontdata);
 });
+
+function setDirections() {
+  alert(fontdata.name);
+
+}
 
 function genColor() {
     var a = "";
@@ -74,12 +78,10 @@ function randomiseBackground() {
 }
 
 function updateDescription() {
-  document.getElementById("info").innerHTML = "You are using <a id='titlefontlink' target='_blank' rel='noopener noreferrer'>" + titleFont + "</a> with <a id='bodyfontlink' target='_blank' rel='noopener noreferrer'>" + bodyFont + "</a>. <br>Double click text to change font.";
+  document.getElementById("info").innerHTML = "You are using <a id='bodyfontlink' target='_blank' rel='noopener noreferrer'>" + bodyFont + "</a>. <br>Double click text to randomize.";
 
-  titleFontLink = "https://fonts.google.com/specimen/" + titleFont;
   bodyFontLink = "https://fonts.google.com/specimen/" + bodyFont;
 
-  document.getElementById('titlefontlink').setAttribute('href', titleFontLink);
   document.getElementById('bodyfontlink').setAttribute('href', bodyFontLink);
 
 }
@@ -91,77 +93,41 @@ function randomiseFont() {
 }
 
 
-function setTitleFont() {
-  titleFont = randomiseFont();
-  document.getElementById("title-text").style.fontFamily = titleFont;
-  randomiseBackground();
-  updateDescription();
-}
-
 function setBodyFont() {
   bodyFont = randomiseFont();
   document.getElementById("body-text").style.fontFamily = bodyFont;
-  randomiseBackground();
   updateDescription();
 }
 
-function switchFonts() {
-  var temp = bodyFont;
-  bodyFont = titleFont;
-  titleFont = temp;
-  document.getElementById("body-text").style.fontFamily = bodyFont;
-  document.getElementById("title-text").style.fontFamily = titleFont;
-  updateDescription();
-}
-
-function setTitleAndBody() {
-  titleFont = randomiseFont();
-  document.getElementById("title-text").style.fontFamily = titleFont;
-
-  bodyFont = randomiseFont();
-  document.getElementById("body-text").style.fontFamily = bodyFont;
-
-  updateDescription();
-}
 
 function alignLeft() {
-  document.getElementById("title-text").style.textAlign = "left";
   document.getElementById("body-text").style.textAlign = "left";
 }
 
 function alignCenter() {
-  document.getElementById("title-text").style.textAlign = "center";
   document.getElementById("body-text").style.textAlign = "center";
 }
 
 function alignRight() {
-  document.getElementById("title-text").style.textAlign = "right";
   document.getElementById("body-text").style.textAlign = "right";
 }
 
 function textBigger() {
-  document.getElementById("title-text").style.fontSize = "2.6em";
-  document.getElementById("title-text").style.lineHeight = "1em";
-  document.getElementById("body-text").style.fontSize = "1.2em";
-  document.getElementById("body-text").style.lineHight = "2.6em";
+  document.getElementById("body-text").style.fontSize = "20px";
 }
 
 function textSmaller() {
-  document.getElementById("title-text").style.fontSize = "1.5em";
-  document.getElementById("title-text").style.lineHeight = ".8em";
-  document.getElementById("body-text").style.fontSize = ".8em";
-  document.getElementById("body-text").style.lineHight = "1em";
+  document.getElementById("body-text").style.fontSize = "12px";
 }
 
 function init() {
-  setTitleFont();
   setBodyFont();
-  document.body.style.background = "black";
+  setDirections();
+  randomiseBackground();
   updateDescription();
 
   if (screen.width<540) {
     document.getElementById("body-text").contentEditable = "false";
-    document.getElementById("title-text").contentEditable = "false";
   }
 
 }
