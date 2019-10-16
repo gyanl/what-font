@@ -1,5 +1,5 @@
 [
-  {
+  {"font": [
     "name": "ARSMaquetteWebOne",
     "angular": 13.99,
     "artistic": 16.92,
@@ -38,8 +38,8 @@
     "thin": 52.1,
     "warm": 55.08,
     "wide": 53.16
-  },
-  {
+  ] },
+  {"font": [
     "name": "Acme-Regular",
     "angular": 26.48,
     "artistic": 32.19,
@@ -78,8 +78,8 @@
     "thin": 34.05,
     "warm": 76.23,
     "wide": 45.18
-  },
-  {
+  ] },
+  {"font": [
     "name": "AdventPro-SemiBold",
     "angular": 32.4,
     "artistic": 26.56,
@@ -118,8 +118,8 @@
     "thin": 51.55,
     "warm": 55.61,
     "wide": 40.3
-  },
-  {
+  ] },
+  {"font": [
     "name": "Aldrich",
     "angular": 51.45,
     "artistic": 47.92,
@@ -158,8 +158,8 @@
     "thin": 42.38,
     "warm": 60.46,
     "wide": 53.2
-  },
-  {
+  ] },
+  {"font": [
     "name": "Alegreya-BoldItalic",
     "angular": 79.5,
     "artistic": 70.87,
@@ -198,8 +198,8 @@
     "thin": 35.48,
     "warm": 87.06,
     "wide": 41.08
-  },
-  {
+  ] },
+  {"font": [
     "name": "AllertaStencil-Regular",
     "angular": 41.24,
     "artistic": 37.14,
@@ -238,8 +238,8 @@
     "thin": 40.47,
     "warm": 69.36,
     "wide": 63.16
-  },
-  {
+  ] },
+  {"font": [
     "name": "Amethysta-Regular",
     "angular": 48.83,
     "artistic": 21,
@@ -278,8 +278,8 @@
     "thin": 51.35,
     "warm": 49.21,
     "wide": 52.91
-  },
-  {
+  ] },
+  {"font": [
     "name": "Andada-Bold",
     "angular": 36.81,
     "artistic": 35.15,
@@ -318,8 +318,8 @@
     "thin": 20.21,
     "warm": 76.73,
     "wide": 54.22
-  },
-  {
+  ] },
+  {"font": [
     "name": "Andada-Italic",
     "angular": 71.75,
     "artistic": 59.73,
@@ -358,8 +358,8 @@
     "thin": 53.68,
     "warm": 82.36,
     "wide": 47.31
-  },
-  {
+  ] },
+  {"font": [
     "name": "AndadaSC-Bold",
     "angular": 46.88,
     "artistic": 40.53,
@@ -398,8 +398,8 @@
     "thin": 3.23,
     "warm": 71.76,
     "wide": 61.46
-  },
-  {
+  ] },
+  {"font": [
     "name": "AnonymousPro",
     "angular": 32.3,
     "artistic": 26.97,
@@ -438,8 +438,8 @@
     "thin": 68.05,
     "warm": 44.73,
     "wide": 53.16
-  },
-  {
+  ] },
+  {"font": [
     "name": "ArchivoNarrow-Regular",
     "angular": 4.67,
     "artistic": 14.97,
@@ -478,8 +478,8 @@
     "thin": 58.14,
     "warm": 61.15,
     "wide": 37.13
-  },
-  {
+  ] },
+  {"font": [
     "name": "ArialRoundedMTBold",
     "angular": 26.36,
     "artistic": 24.59,
@@ -518,8 +518,8 @@
     "thin": 30.77,
     "warm": 70.62,
     "wide": 51.34
-  },
-  {
+  ] },
+  {"font": [
     "name": "ArialUnicodeMS",
     "angular": 7.36,
     "artistic": 0,
@@ -558,8 +558,8 @@
     "thin": 51.05,
     "warm": 64.83,
     "wide": 51.06
-  },
-  {
+  ] },
+  {"font": [
     "name": "Arimo-Bold",
     "angular": 24.37,
     "artistic": 13.31,
@@ -598,8 +598,8 @@
     "thin": 27.24,
     "warm": 72.27,
     "wide": 58.04
-  },
-  {
+  ] },
+  {"font": [
     "name": "Arimo-BoldItalic",
     "angular": 51.68,
     "artistic": 34.05,
@@ -638,8 +638,8 @@
     "thin": 30.09,
     "warm": 81.97,
     "wide": 58.75
-  },
-  {
+  ] },
+  {"font": [
     "name": "Arizonia-Regular",
     "angular": 87.92,
     "artistic": 91.8,
@@ -678,8 +678,8 @@
     "thin": 76.43,
     "warm": 55.71,
     "wide": 22.2
-  },
-  {
+  ] },
+  {"font": [
     "name": "Arvo-Bold",
     "angular": 27.86,
     "artistic": 37.03,
@@ -718,8 +718,8 @@
     "thin": 20.99,
     "warm": 82.7,
     "wide": 61.1
-  },
-  {
+  ] },
+  {"font": [
     "name": "Arvo-BoldItalic",
     "angular": 71.07,
     "artistic": 57.18,
@@ -758,8 +758,8 @@
     "thin": 17.86,
     "warm": 73.18,
     "wide": 62
-  },
-  {
+  ] },
+  {"font": [
     "name": "Arvo-Italic",
     "angular": 86.86,
     "artistic": 51.59,
@@ -798,8 +798,8 @@
     "thin": 41.58,
     "warm": 73.65,
     "wide": 59.73
-  },
-  {
+  ] },
+  {"font": [
     "name": "Asap-Regular",
     "angular": 25.09,
     "artistic": 15.07,
@@ -838,8 +838,8 @@
     "thin": 54.03,
     "warm": 64.8,
     "wide": 48.08
-  },
-  {
+  ] },
+  {"font": [
     "name": "Asset",
     "angular": 35.62,
     "artistic": 43.36,
@@ -878,8 +878,8 @@
     "thin": 1.08,
     "warm": 71.87,
     "wide": 77.89
-  },
-  {
+  ] },
+  {"font": [
     "name": "Astloch-Bold",
     "angular": 52.11,
     "artistic": 85.05,
@@ -918,8 +918,8 @@
     "thin": 49.43,
     "warm": 53.53,
     "wide": 37.33
-  },
-  {
+  ] },
+  {"font": [
     "name": "AveriaLibre-LightItalic",
     "angular": 69.06,
     "artistic": 38.53,
@@ -958,8 +958,8 @@
     "thin": 65.99,
     "warm": 51.75,
     "wide": 41.47
-  },
-  {
+  ] },
+  {"font": [
     "name": "AveriaSansLibre-Italic",
     "angular": 52.05,
     "artistic": 35.44,
@@ -998,8 +998,8 @@
     "thin": 61.28,
     "warm": 67.11,
     "wide": 43.96
-  },
-  {
+  ] },
+  {"font": [
     "name": "AveriaSerifLibre-Italic",
     "angular": 63.65,
     "artistic": 53.7,
@@ -1038,8 +1038,8 @@
     "thin": 55.27,
     "warm": 78.5,
     "wide": 44.61
-  },
-  {
+  ] },
+  {"font": [
     "name": "BadScript-Regular",
     "angular": 88.39,
     "artistic": 71.67,
@@ -1078,8 +1078,8 @@
     "thin": 80.49,
     "warm": 57.72,
     "wide": 37.83
-  },
-  {
+  ] },
+  {"font": [
     "name": "Bello-Pro",
     "angular": 69.72,
     "artistic": 98.71,
@@ -1118,8 +1118,8 @@
     "thin": 19.9,
     "warm": 88.07,
     "wide": 37.41
-  },
-  {
+  ] },
+  {"font": [
     "name": "BenchNine-Regular",
     "angular": 41.03,
     "artistic": 27.93,
@@ -1158,8 +1158,8 @@
     "thin": 64.13,
     "warm": 35.43,
     "wide": 22.12
-  },
-  {
+  ] },
+  {"font": [
     "name": "Bentham-Regular",
     "angular": 37.02,
     "artistic": 41.31,
@@ -1198,8 +1198,8 @@
     "thin": 65.91,
     "warm": 55.17,
     "wide": 44.27
-  },
-  {
+  ] },
+  {"font": [
     "name": "Bevan",
     "angular": 32.17,
     "artistic": 42.79,
@@ -1238,8 +1238,8 @@
     "thin": 18.78,
     "warm": 73.96,
     "wide": 66.42
-  },
-  {
+  ] },
+  {"font": [
     "name": "BilboSwashCaps-Regular",
     "angular": 99.25,
     "artistic": 95.5,
@@ -1278,8 +1278,8 @@
     "thin": 78.91,
     "warm": 43.08,
     "wide": 21.22
-  },
-  {
+  ] },
+  {"font": [
     "name": "BlackOpsOne-Regular",
     "angular": 26.4,
     "artistic": 49.45,
@@ -1318,8 +1318,8 @@
     "thin": 5.02,
     "warm": 79.38,
     "wide": 66.76
-  },
-  {
+  ] },
+  {"font": [
     "name": "BowlbyOneSC-Regular",
     "angular": 19.19,
     "artistic": 24.66,
@@ -1358,8 +1358,8 @@
     "thin": 7.79,
     "warm": 72.17,
     "wide": 78.1
-  },
-  {
+  ] },
+  {"font": [
     "name": "Brevia-Regular",
     "angular": 51.88,
     "artistic": 30.35,
@@ -1398,8 +1398,8 @@
     "thin": 60.72,
     "warm": 28.34,
     "wide": 53.79
-  },
-  {
+  ] },
+  {"font": [
     "name": "BubblerOne",
     "angular": 51.45,
     "artistic": 53.75,
@@ -1438,8 +1438,8 @@
     "thin": 100,
     "warm": 43.8,
     "wide": 36.85
-  },
-  {
+  ] },
+  {"font": [
     "name": "Buenard-Bold",
     "angular": 27.96,
     "artistic": 32.08,
@@ -1478,8 +1478,8 @@
     "thin": 36.12,
     "warm": 78.64,
     "wide": 49.12
-  },
-  {
+  ] },
+  {"font": [
     "name": "Cabin-SemiBoldItalic",
     "angular": 56.16,
     "artistic": 33.78,
@@ -1518,8 +1518,8 @@
     "thin": 38.7,
     "warm": 70.89,
     "wide": 47.1
-  },
-  {
+  ] },
+  {"font": [
     "name": "CabinCondensed",
     "angular": 16.04,
     "artistic": 9.64,
@@ -1558,8 +1558,8 @@
     "thin": 52.28,
     "warm": 60.56,
     "wide": 37.87
-  },
-  {
+  ] },
+  {"font": [
     "name": "CabinCondensed-Medium",
     "angular": 15.75,
     "artistic": 14.14,
@@ -1598,8 +1598,8 @@
     "thin": 47.11,
     "warm": 61.57,
     "wide": 42.27
-  },
-  {
+  ] },
+  {"font": [
     "name": "Calluna-Regular",
     "angular": 39.79,
     "artistic": 25.87,
@@ -1638,8 +1638,8 @@
     "thin": 57.81,
     "warm": 49.01,
     "wide": 45.4
-  },
-  {
+  ] },
+  {"font": [
     "name": "Cantarell-BoldOblique",
     "angular": 83.17,
     "artistic": 46.34,
@@ -1678,8 +1678,8 @@
     "thin": 36.05,
     "warm": 76.17,
     "wide": 58.56
-  },
-  {
+  ] },
+  {"font": [
     "name": "CantoraOne-Regular",
     "angular": 22.36,
     "artistic": 38.6,
@@ -1718,8 +1718,8 @@
     "thin": 32.5,
     "warm": 78.68,
     "wide": 46.12
-  },
-  {
+  ] },
+  {"font": [
     "name": "Cardo-Italic",
     "angular": 100,
     "artistic": 71.97,
@@ -1758,8 +1758,8 @@
     "thin": 78.09,
     "warm": 64.49,
     "wide": 39.36
-  },
-  {
+  ] },
+  {"font": [
     "name": "CenturyGothic",
     "angular": 25.23,
     "artistic": 11.45,
@@ -1798,8 +1798,8 @@
     "thin": 63.08,
     "warm": 54.25,
     "wide": 53.42
-  },
-  {
+  ] },
+  {"font": [
     "name": "Chivo-Italic",
     "angular": 49.67,
     "artistic": 31.61,
@@ -1838,8 +1838,8 @@
     "thin": 51.99,
     "warm": 71.5,
     "wide": 53.01
-  },
-  {
+  ] },
+  {"font": [
     "name": "ClickerScript-Regular",
     "angular": 69.03,
     "artistic": 78.92,
@@ -1878,8 +1878,8 @@
     "thin": 87.1,
     "warm": 46.63,
     "wide": 21.88
-  },
-  {
+  ] },
+  {"font": [
     "name": "CrimsonText-BoldItalic",
     "angular": 73.88,
     "artistic": 80.44,
@@ -1918,8 +1918,8 @@
     "thin": 46.26,
     "warm": 96.46,
     "wide": 39.05
-  },
-  {
+  ] },
+  {"font": [
     "name": "CrimsonText-Semibold",
     "angular": 27.19,
     "artistic": 27.4,
@@ -1958,8 +1958,8 @@
     "thin": 50.09,
     "warm": 64.96,
     "wide": 46.25
-  },
-  {
+  ] },
+  {"font": [
     "name": "Damion",
     "angular": 74.8,
     "artistic": 88.87,
@@ -1998,8 +1998,8 @@
     "thin": 57.72,
     "warm": 80.56,
     "wide": 33.16
-  },
-  {
+  ] },
+  {"font": [
     "name": "Dosis-Light",
     "angular": 29.62,
     "artistic": 12.66,
@@ -2038,8 +2038,8 @@
     "thin": 91.74,
     "warm": 31.96,
     "wide": 35.54
-  },
-  {
+  ] },
+  {"font": [
     "name": "EagleLake-Regular",
     "angular": 79.44,
     "artistic": 93.4,
@@ -2078,8 +2078,8 @@
     "thin": 40.97,
     "warm": 84.91,
     "wide": 70.73
-  },
-  {
+  ] },
+  {"font": [
     "name": "Economica-Italic",
     "angular": 72.56,
     "artistic": 45.13,
@@ -2118,8 +2118,8 @@
     "thin": 74.29,
     "warm": 17.98,
     "wide": 23.23
-  },
-  {
+  ] },
+  {"font": [
     "name": "EmblemaOne-Regular",
     "angular": 55.74,
     "artistic": 63.92,
@@ -2158,8 +2158,8 @@
     "thin": 14.53,
     "warm": 89.08,
     "wide": 64.95
-  },
-  {
+  ] },
+  {"font": [
     "name": "Enriqueta-Regular",
     "angular": 23.98,
     "artistic": 23.56,
@@ -2198,8 +2198,8 @@
     "thin": 55.33,
     "warm": 62.13,
     "wide": 52.28
-  },
-  {
+  ] },
+  {"font": [
     "name": "FanwoodText-Italic",
     "angular": 60.49,
     "artistic": 62,
@@ -2238,8 +2238,8 @@
     "thin": 71.52,
     "warm": 61.14,
     "wide": 33.08
-  },
-  {
+  ] },
+  {"font": [
     "name": "Fenix",
     "angular": 32.96,
     "artistic": 26.82,
@@ -2278,8 +2278,8 @@
     "thin": 58.8,
     "warm": 65.14,
     "wide": 43.54
-  },
-  {
+  ] },
+  {"font": [
     "name": "FingerPaint",
     "angular": 46.92,
     "artistic": 69.95,
@@ -2318,8 +2318,8 @@
     "thin": 41.31,
     "warm": 75.28,
     "wide": 62.97
-  },
-  {
+  ] },
+  {"font": [
     "name": "FrancoisOne-Regular",
     "angular": 16.64,
     "artistic": 11.14,
@@ -2358,8 +2358,8 @@
     "thin": 26.88,
     "warm": 73.45,
     "wide": 45.9
-  },
-  {
+  ] },
+  {"font": [
     "name": "FredokaOne-Regular",
     "angular": 11.26,
     "artistic": 33.98,
@@ -2398,8 +2398,8 @@
     "thin": 6.11,
     "warm": 75.58,
     "wide": 63.16
-  },
-  {
+  ] },
+  {"font": [
     "name": "Frijole",
     "angular": 23.18,
     "artistic": 70.17,
@@ -2438,8 +2438,8 @@
     "thin": 5.97,
     "warm": 92.49,
     "wide": 100
-  },
-  {
+  ] },
+  {"font": [
     "name": "Futura-Medium",
     "angular": 39.88,
     "artistic": 25.29,
@@ -2478,8 +2478,8 @@
     "thin": 38.56,
     "warm": 64.7,
     "wide": 51.45
-  },
-  {
+  ] },
+  {"font": [
     "name": "GEInspira",
     "angular": 31.16,
     "artistic": 15.86,
@@ -2518,8 +2518,8 @@
     "thin": 75.37,
     "warm": 58.74,
     "wide": 43.24
-  },
-  {
+  ] },
+  {"font": [
     "name": "GFSDidot-Regular",
     "angular": 10.33,
     "artistic": 29.06,
@@ -2558,8 +2558,8 @@
     "thin": 62.41,
     "warm": 58.59,
     "wide": 46.98
-  },
-  {
+  ] },
+  {"font": [
     "name": "GFSNeohellenic-Italic",
     "angular": 74.69,
     "artistic": 47.87,
@@ -2598,8 +2598,8 @@
     "thin": 82.71,
     "warm": 39.09,
     "wide": 40.89
-  },
-  {
+  ] },
+  {"font": [
     "name": "GentiumBasic",
     "angular": 38.97,
     "artistic": 29.35,
@@ -2638,8 +2638,8 @@
     "thin": 70.04,
     "warm": 57.77,
     "wide": 44.61
-  },
-  {
+  ] },
+  {"font": [
     "name": "GentiumBasic-Bold",
     "angular": 37.11,
     "artistic": 31.54,
@@ -2678,8 +2678,8 @@
     "thin": 34.97,
     "warm": 75.81,
     "wide": 49.64
-  },
-  {
+  ] },
+  {"font": [
     "name": "GentiumBasic-BoldItalic",
     "angular": 61.59,
     "artistic": 72.9,
@@ -2718,8 +2718,8 @@
     "thin": 40.42,
     "warm": 100,
     "wide": 40.21
-  },
-  {
+  ] },
+  {"font": [
     "name": "GillSansStd",
     "angular": 20.48,
     "artistic": 14.79,
@@ -2758,8 +2758,8 @@
     "thin": 53.84,
     "warm": 52.19,
     "wide": 44.37
-  },
-  {
+  ] },
+  {"font": [
     "name": "GillSansStd-Bold",
     "angular": 21.16,
     "artistic": 21.54,
@@ -2798,8 +2798,8 @@
     "thin": 23.75,
     "warm": 74.95,
     "wide": 52.63
-  },
-  {
+  ] },
+  {"font": [
     "name": "GillSansStd-BoldItalic",
     "angular": 63.53,
     "artistic": 40.54,
@@ -2838,8 +2838,8 @@
     "thin": 31.22,
     "warm": 80.93,
     "wide": 50.93
-  },
-  {
+  ] },
+  {"font": [
     "name": "GoudyBookletter1911",
     "angular": 47.78,
     "artistic": 23.9,
@@ -2878,8 +2878,8 @@
     "thin": 60.97,
     "warm": 59.5,
     "wide": 43.03
-  },
-  {
+  ] },
+  {"font": [
     "name": "GreatVibes-Regular",
     "angular": 95.05,
     "artistic": 95.65,
@@ -2918,8 +2918,8 @@
     "thin": 81.37,
     "warm": 62.56,
     "wide": 22.96
-  },
-  {
+  ] },
+  {"font": [
     "name": "HeadlandOne-Regular",
     "angular": 38.32,
     "artistic": 34.86,
@@ -2958,8 +2958,8 @@
     "thin": 45.32,
     "warm": 77.31,
     "wide": 62.04
-  },
-  {
+  ] },
+  {"font": [
     "name": "HoeflerText-Regular",
     "angular": 33.56,
     "artistic": 23.51,
@@ -2998,8 +2998,8 @@
     "thin": 61.23,
     "warm": 65.86,
     "wide": 44.49
-  },
-  {
+  ] },
+  {"font": [
     "name": "IM_FELL_English_Roman",
     "angular": 38.37,
     "artistic": 38.36,
@@ -3038,8 +3038,8 @@
     "thin": 54.44,
     "warm": 56.75,
     "wide": 43.86
-  },
-  {
+  ] },
+  {"font": [
     "name": "IM_FELL_French_Canon_Roman",
     "angular": 39.81,
     "artistic": 31.51,
@@ -3078,8 +3078,8 @@
     "thin": 63.38,
     "warm": 64.01,
     "wide": 50.15
-  },
-  {
+  ] },
+  {"font": [
     "name": "Iceland-Regular",
     "angular": 59.39,
     "artistic": 54.52,
@@ -3118,8 +3118,8 @@
     "thin": 71.7,
     "warm": 37.18,
     "wide": 40.62
-  },
-  {
+  ] },
+  {"font": [
     "name": "Inconsolata-Regular",
     "angular": 29.07,
     "artistic": 21.89,
@@ -3158,8 +3158,8 @@
     "thin": 74.03,
     "warm": 13.69,
     "wide": 46.89
-  },
-  {
+  ] },
+  {"font": [
     "name": "IstokWeb-Bold",
     "angular": 0,
     "artistic": 18.6,
@@ -3198,8 +3198,8 @@
     "thin": 27.31,
     "warm": 79.54,
     "wide": 53.57
-  },
-  {
+  ] },
+  {"font": [
     "name": "JosefinSans-SemiBoldItalic",
     "angular": 65.64,
     "artistic": 38.31,
@@ -3238,8 +3238,8 @@
     "thin": 76.2,
     "warm": 52.31,
     "wide": 38.28
-  },
-  {
+  ] },
+  {"font": [
     "name": "Julee-Regular",
     "angular": 80.55,
     "artistic": 94.74,
@@ -3278,8 +3278,8 @@
     "thin": 63.03,
     "warm": 47.43,
     "wide": 35.7
-  },
-  {
+  ] },
+  {"font": [
     "name": "Jura-Light",
     "angular": 40.5,
     "artistic": 36.38,
@@ -3318,8 +3318,8 @@
     "thin": 88.81,
     "warm": 36.68,
     "wide": 43.58
-  },
-  {
+  ] },
+  {"font": [
     "name": "JustAnotherHand-Regular",
     "angular": 49.4,
     "artistic": 63.74,
@@ -3358,8 +3358,8 @@
     "thin": 71.57,
     "warm": 36.36,
     "wide": 23.58
-  },
-  {
+  ] },
+  {"font": [
     "name": "KellySlab-Regular",
     "angular": 80.89,
     "artistic": 67.17,
@@ -3398,8 +3398,8 @@
     "thin": 53.43,
     "warm": 54.81,
     "wide": 46.63
-  },
-  {
+  ] },
+  {"font": [
     "name": "Kenia-Regular",
     "angular": 59.49,
     "artistic": 65.73,
@@ -3438,8 +3438,8 @@
     "thin": 27.87,
     "warm": 67.26,
     "wide": 40.86
-  },
-  {
+  ] },
+  {"font": [
     "name": "Lato-BlackItalic",
     "angular": 51.13,
     "artistic": 44.97,
@@ -3478,8 +3478,8 @@
     "thin": 23.27,
     "warm": 90.68,
     "wide": 55.13
-  },
-  {
+  ] },
+  {"font": [
     "name": "Lato-BoldItalic",
     "angular": 42.86,
     "artistic": 43.8,
@@ -3518,8 +3518,8 @@
     "thin": 34.76,
     "warm": 91.84,
     "wide": 47.25
-  },
-  {
+  ] },
+  {"font": [
     "name": "Lato-Italic",
     "angular": 43.64,
     "artistic": 35.86,
@@ -3558,8 +3558,8 @@
     "thin": 55.1,
     "warm": 74.53,
     "wide": 41.7
-  },
-  {
+  ] },
+  {"font": [
     "name": "LeagueGothic",
     "angular": 17.18,
     "artistic": 42.43,
@@ -3598,8 +3598,8 @@
     "thin": 45.09,
     "warm": 58.17,
     "wide": 24.3
-  },
-  {
+  ] },
+  {"font": [
     "name": "Lekton-Italic",
     "angular": 75.55,
     "artistic": 43.8,
@@ -3638,8 +3638,8 @@
     "thin": 95.69,
     "warm": 34.55,
     "wide": 42.38
-  },
-  {
+  ] },
+  {"font": [
     "name": "LifeSavers-Bold",
     "angular": 50.42,
     "artistic": 54.34,
@@ -3678,8 +3678,8 @@
     "thin": 64.82,
     "warm": 64.04,
     "wide": 51.72
-  },
-  {
+  ] },
+  {"font": [
     "name": "Lobster",
     "angular": 70.73,
     "artistic": 91.23,
@@ -3718,8 +3718,8 @@
     "thin": 18.88,
     "warm": 84.77,
     "wide": 42.55
-  },
-  {
+  ] },
+  {"font": [
     "name": "LobsterTwo-Italic",
     "angular": 85.56,
     "artistic": 88.91,
@@ -3758,8 +3758,8 @@
     "thin": 45.33,
     "warm": 74.75,
     "wide": 42.26
-  },
-  {
+  ] },
+  {"font": [
     "name": "Lora-BoldItalic",
     "angular": 59.18,
     "artistic": 61.68,
@@ -3798,8 +3798,8 @@
     "thin": 33.07,
     "warm": 89.38,
     "wide": 51.77
-  },
-  {
+  ] },
+  {"font": [
     "name": "LucidaSansStd",
     "angular": 37.49,
     "artistic": 17.41,
@@ -3838,8 +3838,8 @@
     "thin": 48.57,
     "warm": 58.59,
     "wide": 56.14
-  },
-  {
+  ] },
+  {"font": [
     "name": "Magra-Bold",
     "angular": 15.69,
     "artistic": 23.91,
@@ -3878,8 +3878,8 @@
     "thin": 19.34,
     "warm": 80.41,
     "wide": 48.43
-  },
-  {
+  ] },
+  {"font": [
     "name": "MarckScript-Regular",
     "angular": 90.55,
     "artistic": 81.91,
@@ -3918,8 +3918,8 @@
     "thin": 75.84,
     "warm": 72.32,
     "wide": 34.41
-  },
-  {
+  ] },
+  {"font": [
     "name": "Marvel-Bold",
     "angular": 39.68,
     "artistic": 22.1,
@@ -3958,8 +3958,8 @@
     "thin": 77.12,
     "warm": 38,
     "wide": 0
-  },
-  {
+  ] },
+  {"font": [
     "name": "Marvel-BoldItalic",
     "angular": 65.26,
     "artistic": 38.1,
@@ -3998,8 +3998,8 @@
     "thin": 69.57,
     "warm": 41.04,
     "wide": 31.98
-  },
-  {
+  ] },
+  {"font": [
     "name": "MavenProBlack",
     "angular": 24.7,
     "artistic": 28.58,
@@ -4038,8 +4038,8 @@
     "thin": 30.27,
     "warm": 63.2,
     "wide": 58.13
-  },
-  {
+  ] },
+  {"font": [
     "name": "Megrim",
     "angular": 74.76,
     "artistic": 64.16,
@@ -4078,8 +4078,8 @@
     "thin": 99.69,
     "warm": 34.5,
     "wide": 50.67
-  },
-  {
+  ] },
+  {"font": [
     "name": "MergeOne-Regular",
     "angular": 20.24,
     "artistic": 16.9,
@@ -4118,8 +4118,8 @@
     "thin": 58.92,
     "warm": 33.58,
     "wide": 46.41
-  },
-  {
+  ] },
+  {"font": [
     "name": "Merriweather",
     "angular": 36.64,
     "artistic": 22.82,
@@ -4158,8 +4158,8 @@
     "thin": 50.81,
     "warm": 56.97,
     "wide": 57.75
-  },
-  {
+  ] },
+  {"font": [
     "name": "Merriweather-Bold",
     "angular": 38.06,
     "artistic": 31.97,
@@ -4198,8 +4198,8 @@
     "thin": 32.12,
     "warm": 81.57,
     "wide": 62.96
-  },
-  {
+  ] },
+  {"font": [
     "name": "MervaleScript-Regular",
     "angular": 91.34,
     "artistic": 96.78,
@@ -4238,8 +4238,8 @@
     "thin": 68.92,
     "warm": 62.58,
     "wide": 21.3
-  },
-  {
+  ] },
+  {"font": [
     "name": "Milonga-Regular",
     "angular": 32.41,
     "artistic": 64.18,
@@ -4278,8 +4278,8 @@
     "thin": 55.96,
     "warm": 70.3,
     "wide": 53.13
-  },
-  {
+  ] },
+  {"font": [
     "name": "ModernAntiqua-Regular",
     "angular": 39.37,
     "artistic": 41.71,
@@ -4318,8 +4318,8 @@
     "thin": 52.29,
     "warm": 71.61,
     "wide": 54.09
-  },
-  {
+  ] },
+  {"font": [
     "name": "Montez-Regular",
     "angular": 65.72,
     "artistic": 87.9,
@@ -4358,8 +4358,8 @@
     "thin": 79.23,
     "warm": 39.6,
     "wide": 28.62
-  },
-  {
+  ] },
+  {"font": [
     "name": "Muli",
     "angular": 27.41,
     "artistic": 10.61,
@@ -4398,8 +4398,8 @@
     "thin": 57.19,
     "warm": 51.7,
     "wide": 49.84
-  },
-  {
+  ] },
+  {"font": [
     "name": "Muli-Light",
     "angular": 35.11,
     "artistic": 9.76,
@@ -4438,8 +4438,8 @@
     "thin": 69.5,
     "warm": 33.36,
     "wide": 49.94
-  },
-  {
+  ] },
+  {"font": [
     "name": "NanumGothicCoding-Bold",
     "angular": 20.92,
     "artistic": 38.91,
@@ -4478,8 +4478,8 @@
     "thin": 30.72,
     "warm": 70.56,
     "wide": 47.06
-  },
-  {
+  ] },
+  {"font": [
     "name": "Neuton-Light",
     "angular": 24.69,
     "artistic": 26.99,
@@ -4518,8 +4518,8 @@
     "thin": 72.78,
     "warm": 43.61,
     "wide": 42.72
-  },
-  {
+  ] },
+  {"font": [
     "name": "Niconne-Regular",
     "angular": 64.51,
     "artistic": 77.67,
@@ -4558,8 +4558,8 @@
     "thin": 72.83,
     "warm": 68.91,
     "wide": 27.91
-  },
-  {
+  ] },
+  {"font": [
     "name": "Nobile-Medium",
     "angular": 23.62,
     "artistic": 19.51,
@@ -4598,8 +4598,8 @@
     "thin": 29.79,
     "warm": 80.6,
     "wide": 57.09
-  },
-  {
+  ] },
+  {"font": [
     "name": "Nobile-MediumItalic",
     "angular": 49.54,
     "artistic": 29.31,
@@ -4638,8 +4638,8 @@
     "thin": 47.86,
     "warm": 71.15,
     "wide": 49.65
-  },
-  {
+  ] },
+  {"font": [
     "name": "NovaRound",
     "angular": 37.87,
     "artistic": 40.85,
@@ -4678,8 +4678,8 @@
     "thin": 52.62,
     "warm": 63.82,
     "wide": 49.12
-  },
-  {
+  ] },
+  {"font": [
     "name": "OFLGoudyStMTT",
     "angular": 35.6,
     "artistic": 36.14,
@@ -4718,8 +4718,8 @@
     "thin": 70.68,
     "warm": 55.72,
     "wide": 48.71
-  },
-  {
+  ] },
+  {"font": [
     "name": "OldStandardTT-Regular",
     "angular": 30.56,
     "artistic": 37.58,
@@ -4758,8 +4758,8 @@
     "thin": 65.96,
     "warm": 50.94,
     "wide": 43.63
-  },
-  {
+  ] },
+  {"font": [
     "name": "Oldenburg-Regular",
     "angular": 37.87,
     "artistic": 36.45,
@@ -4798,8 +4798,8 @@
     "thin": 51.71,
     "warm": 67.86,
     "wide": 56.74
-  },
-  {
+  ] },
+  {"font": [
     "name": "OpenSans-CondensedLight",
     "angular": 21.35,
     "artistic": 19.31,
@@ -4838,8 +4838,8 @@
     "thin": 75.35,
     "warm": 18.64,
     "wide": 24.97
-  },
-  {
+  ] },
+  {"font": [
     "name": "Oranienbaum-Regular",
     "angular": 27.11,
     "artistic": 36.24,
@@ -4878,8 +4878,8 @@
     "thin": 72.15,
     "warm": 60.08,
     "wide": 39.26
-  },
-  {
+  ] },
+  {"font": [
     "name": "Orbitron-Black",
     "angular": 48.16,
     "artistic": 50.87,
@@ -4918,8 +4918,8 @@
     "thin": 15.32,
     "warm": 63.18,
     "wide": 66.24
-  },
-  {
+  ] },
+  {"font": [
     "name": "Orbitron-Medium",
     "angular": 48,
     "artistic": 48.5,
@@ -4958,8 +4958,8 @@
     "thin": 34.08,
     "warm": 59.28,
     "wide": 65.49
-  },
-  {
+  ] },
+  {"font": [
     "name": "OriginalSurfer-Regular",
     "angular": 39.99,
     "artistic": 63.81,
@@ -4998,8 +4998,8 @@
     "thin": 42.53,
     "warm": 81.31,
     "wide": 49.99
-  },
-  {
+  ] },
+  {"font": [
     "name": "Oswald-Bold",
     "angular": 3.98,
     "artistic": 27.86,
@@ -5038,8 +5038,8 @@
     "thin": 19.94,
     "warm": 66.41,
     "wide": 49.51
-  },
-  {
+  ] },
+  {"font": [
     "name": "Oswald-Regular",
     "angular": 35.55,
     "artistic": 17.86,
@@ -5078,8 +5078,8 @@
     "thin": 33.24,
     "warm": 68.61,
     "wide": 40.26
-  },
-  {
+  ] },
+  {"font": [
     "name": "Overlock-Italic",
     "angular": 51.87,
     "artistic": 45.29,
@@ -5118,8 +5118,8 @@
     "thin": 68.64,
     "warm": 57.01,
     "wide": 39.59
-  },
-  {
+  ] },
+  {"font": [
     "name": "PTSans-Caption",
     "angular": 18.05,
     "artistic": 17.87,
@@ -5158,8 +5158,8 @@
     "thin": 51.43,
     "warm": 67.23,
     "wide": 57.54
-  },
-  {
+  ] },
+  {"font": [
     "name": "PTSerif-BoldItalic",
     "angular": 81.67,
     "artistic": 56.04,
@@ -5198,8 +5198,8 @@
     "thin": 27.76,
     "warm": 87.06,
     "wide": 54.94
-  },
-  {
+  ] },
+  {"font": [
     "name": "Palatino-Roman",
     "angular": 38.07,
     "artistic": 19.65,
@@ -5238,8 +5238,8 @@
     "thin": 61.8,
     "warm": 64.62,
     "wide": 45.32
-  },
-  {
+  ] },
+  {"font": [
     "name": "Paprika-Regular",
     "angular": 73.27,
     "artistic": 67.21,
@@ -5278,8 +5278,8 @@
     "thin": 44.72,
     "warm": 83.98,
     "wide": 55.89
-  },
-  {
+  ] },
+  {"font": [
     "name": "Parisienne-Regular",
     "angular": 92.17,
     "artistic": 93.23,
@@ -5318,8 +5318,8 @@
     "thin": 80.31,
     "warm": 51.21,
     "wide": 26.35
-  },
-  {
+  ] },
+  {"font": [
     "name": "PasseroOne-Regular",
     "angular": 70.4,
     "artistic": 80.44,
@@ -5358,8 +5358,8 @@
     "thin": 33.13,
     "warm": 62.6,
     "wide": 41.75
-  },
-  {
+  ] },
+  {"font": [
     "name": "Philosopher",
     "angular": 48.24,
     "artistic": 33.12,
@@ -5398,8 +5398,8 @@
     "thin": 57.38,
     "warm": 59.12,
     "wide": 46.05
-  },
-  {
+  ] },
+  {"font": [
     "name": "PlayfairDisplay-Black",
     "angular": 28.91,
     "artistic": 41.67,
@@ -5438,8 +5438,8 @@
     "thin": 18.26,
     "warm": 78.04,
     "wide": 65.6
-  },
-  {
+  ] },
+  {"font": [
     "name": "PlayfairDisplay-Italic",
     "angular": 79.21,
     "artistic": 79.31,
@@ -5478,8 +5478,8 @@
     "thin": 66.67,
     "warm": 65.88,
     "wide": 45.85
-  },
-  {
+  ] },
+  {"font": [
     "name": "PlayfairDisplaySC-BoldItalic",
     "angular": 76.59,
     "artistic": 85.87,
@@ -5518,8 +5518,8 @@
     "thin": 24.86,
     "warm": 77.03,
     "wide": 73.52
-  },
-  {
+  ] },
+  {"font": [
     "name": "PressStart2P-Regular",
     "angular": 23.42,
     "artistic": 45.51,
@@ -5558,8 +5558,8 @@
     "thin": 19.6,
     "warm": 68.83,
     "wide": 97.66
-  },
-  {
+  ] },
+  {"font": [
     "name": "Puritan-Bold",
     "angular": 24.18,
     "artistic": 26.78,
@@ -5598,8 +5598,8 @@
     "thin": 42.86,
     "warm": 65.58,
     "wide": 43.77
-  },
-  {
+  ] },
+  {"font": [
     "name": "QuattrocentoSans-Italic",
     "angular": 63.92,
     "artistic": 35.07,
@@ -5638,8 +5638,8 @@
     "thin": 73.88,
     "warm": 50.72,
     "wide": 47.36
-  },
-  {
+  ] },
+  {"font": [
     "name": "RacingSansOne-Regular",
     "angular": 75.24,
     "artistic": 39.84,
@@ -5678,8 +5678,8 @@
     "thin": 9.88,
     "warm": 89.4,
     "wide": 56.38
-  },
-  {
+  ] },
+  {"font": [
     "name": "Raleway-Bold",
     "angular": 17.72,
     "artistic": 21.77,
@@ -5718,8 +5718,8 @@
     "thin": 26.81,
     "warm": 74.81,
     "wide": 57.64
-  },
-  {
+  ] },
+  {"font": [
     "name": "Raleway-SemiBold",
     "angular": 1.87,
     "artistic": 22.04,
@@ -5758,8 +5758,8 @@
     "thin": 40.67,
     "warm": 85.5,
     "wide": 53.45
-  },
-  {
+  ] },
+  {"font": [
     "name": "Rambla-Regular",
     "angular": 21.6,
     "artistic": 14.59,
@@ -5798,8 +5798,8 @@
     "thin": 51.77,
     "warm": 53.82,
     "wide": 43.61
-  },
-  {
+  ] },
+  {"font": [
     "name": "Ranchers-Regular",
     "angular": 30.88,
     "artistic": 56.72,
@@ -5838,8 +5838,8 @@
     "thin": 12.86,
     "warm": 74.63,
     "wide": 49.41
-  },
-  {
+  ] },
+  {"font": [
     "name": "Rationale-Regular",
     "angular": 43.45,
     "artistic": 47.07,
@@ -5878,8 +5878,8 @@
     "thin": 61.38,
     "warm": 51.7,
     "wide": 37.23
-  },
-  {
+  ] },
+  {"font": [
     "name": "Redressed",
     "angular": 45.26,
     "artistic": 81.28,
@@ -5918,8 +5918,8 @@
     "thin": 63.75,
     "warm": 71.84,
     "wide": 32.92
-  },
-  {
+  ] },
+  {"font": [
     "name": "Roboto-Black",
     "angular": 14.98,
     "artistic": 22.07,
@@ -5958,8 +5958,8 @@
     "thin": 17.44,
     "warm": 81.95,
     "wide": 55.52
-  },
-  {
+  ] },
+  {"font": [
     "name": "Roboto-Light",
     "angular": 22.21,
     "artistic": 4.21,
@@ -5998,8 +5998,8 @@
     "thin": 77.65,
     "warm": 50.37,
     "wide": 48.24
-  },
-  {
+  ] },
+  {"font": [
     "name": "Roboto-MediumItalic",
     "angular": 55.15,
     "artistic": 33.6,
@@ -6038,8 +6038,8 @@
     "thin": 40.71,
     "warm": 77.91,
     "wide": 53.51
-  },
-  {
+  ] },
+  {"font": [
     "name": "Roboto-Regular",
     "angular": 8.36,
     "artistic": 7.23,
@@ -6078,8 +6078,8 @@
     "thin": 47.99,
     "warm": 58.73,
     "wide": 53.45
-  },
-  {
+  ] },
+  {"font": [
     "name": "RobotoCondensed-Light",
     "angular": 4.87,
     "artistic": 14.21,
@@ -6118,8 +6118,8 @@
     "thin": 76.14,
     "warm": 38.04,
     "wide": 32.29
-  },
-  {
+  ] },
+  {"font": [
     "name": "RobotoCondensed-Regular",
     "angular": 19.45,
     "artistic": 15.1,
@@ -6158,8 +6158,8 @@
     "thin": 46.88,
     "warm": 60.72,
     "wide": 42.77
-  },
-  {
+  ] },
+  {"font": [
     "name": "Rokkitt",
     "angular": 23.78,
     "artistic": 21.08,
@@ -6198,8 +6198,8 @@
     "thin": 61.65,
     "warm": 54.95,
     "wide": 44.6
-  },
-  {
+  ] },
+  {"font": [
     "name": "Rokkitt-Light",
     "angular": 24.64,
     "artistic": 19.57,
@@ -6238,8 +6238,8 @@
     "thin": 88.22,
     "warm": 15.84,
     "wide": 45.27
-  },
-  {
+  ] },
+  {"font": [
     "name": "RopaSans-Regular",
     "angular": 22.83,
     "artistic": 21.78,
@@ -6278,8 +6278,8 @@
     "thin": 58.17,
     "warm": 53.14,
     "wide": 40.9
-  },
-  {
+  ] },
+  {"font": [
     "name": "Rosario-Bold",
     "angular": 21.43,
     "artistic": 33.05,
@@ -6318,8 +6318,8 @@
     "thin": 35.91,
     "warm": 75.56,
     "wide": 46.83
-  },
-  {
+  ] },
+  {"font": [
     "name": "Rosarivo-Italic",
     "angular": 84.26,
     "artistic": 74.72,
@@ -6358,8 +6358,8 @@
     "thin": 65.99,
     "warm": 67.05,
     "wide": 45.24
-  },
-  {
+  ] },
+  {"font": [
     "name": "Sacramento-Regular",
     "angular": 63,
     "artistic": 79.3,
@@ -6398,8 +6398,8 @@
     "thin": 92.66,
     "warm": 59.47,
     "wide": 23.09
-  },
-  {
+  ] },
+  {"font": [
     "name": "Satisfy",
     "angular": 74.23,
     "artistic": 88.77,
@@ -6438,8 +6438,8 @@
     "thin": 70.04,
     "warm": 56.46,
     "wide": 34.55
-  },
-  {
+  ] },
+  {"font": [
     "name": "Sedan-Italic",
     "angular": 92.26,
     "artistic": 87.07,
@@ -6478,8 +6478,8 @@
     "thin": 67.59,
     "warm": 70.45,
     "wide": 36.92
-  },
-  {
+  ] },
+  {"font": [
     "name": "Sevillana-Regular",
     "angular": 68.08,
     "artistic": 72.84,
@@ -6518,8 +6518,8 @@
     "thin": 83.22,
     "warm": 62.14,
     "wide": 21.98
-  },
-  {
+  ] },
+  {"font": [
     "name": "Share-BoldItalicOSF",
     "angular": 60.5,
     "artistic": 31.75,
@@ -6558,8 +6558,8 @@
     "thin": 27.45,
     "warm": 81.06,
     "wide": 45.93
-  },
-  {
+  ] },
+  {"font": [
     "name": "Share-BoldOSF",
     "angular": 32.67,
     "artistic": 29.24,
@@ -6598,8 +6598,8 @@
     "thin": 30.36,
     "warm": 73.39,
     "wide": 45.7
-  },
-  {
+  ] },
+  {"font": [
     "name": "ShareTech-Regular",
     "angular": 42.39,
     "artistic": 33.32,
@@ -6638,8 +6638,8 @@
     "thin": 58.71,
     "warm": 51.97,
     "wide": 37.95
-  },
-  {
+  ] },
+  {"font": [
     "name": "SigmarOne",
     "angular": 41.02,
     "artistic": 36.93,
@@ -6678,8 +6678,8 @@
     "thin": 9.36,
     "warm": 72.57,
     "wide": 73.43
-  },
-  {
+  ] },
+  {"font": [
     "name": "Signika-Light",
     "angular": 23.61,
     "artistic": 19.71,
@@ -6718,8 +6718,8 @@
     "thin": 61.05,
     "warm": 51.55,
     "wide": 41.57
-  },
-  {
+  ] },
+  {"font": [
     "name": "Signika-Semibold",
     "angular": 21.35,
     "artistic": 23.4,
@@ -6758,8 +6758,8 @@
     "thin": 31.2,
     "warm": 78.97,
     "wide": 47.41
-  },
-  {
+  ] },
+  {"font": [
     "name": "Simonetta-Black",
     "angular": 55.02,
     "artistic": 64.35,
@@ -6798,8 +6798,8 @@
     "thin": 20.83,
     "warm": 91.94,
     "wide": 49.04
-  },
-  {
+  ] },
+  {"font": [
     "name": "Slackey",
     "angular": 54.85,
     "artistic": 73.81,
@@ -6838,8 +6838,8 @@
     "thin": 15.74,
     "warm": 71.93,
     "wide": 68.8
-  },
-  {
+  ] },
+  {"font": [
     "name": "Smokum-Regular",
     "angular": 58.97,
     "artistic": 60.13,
@@ -6878,8 +6878,8 @@
     "thin": 48.4,
     "warm": 54.36,
     "wide": 31.2
-  },
-  {
+  ] },
+  {"font": [
     "name": "SonsieOne-Regular",
     "angular": 70.7,
     "artistic": 95.02,
@@ -6918,8 +6918,8 @@
     "thin": 5.03,
     "warm": 84.61,
     "wide": 75.91
-  },
-  {
+  ] },
+  {"font": [
     "name": "SourceCodePro-Black",
     "angular": 24.33,
     "artistic": 41.41,
@@ -6958,8 +6958,8 @@
     "thin": 22.73,
     "warm": 81.94,
     "wide": 64.03
-  },
-  {
+  ] },
+  {"font": [
     "name": "SourceCodePro-ExtraLight",
     "angular": 56.23,
     "artistic": 22.21,
@@ -6998,8 +6998,8 @@
     "thin": 94.47,
     "warm": 27.76,
     "wide": 56.95
-  },
-  {
+  ] },
+  {"font": [
     "name": "SourceCodePro-Light",
     "angular": 37.96,
     "artistic": 22.07,
@@ -7038,8 +7038,8 @@
     "thin": 95.29,
     "warm": 24.98,
     "wide": 55.97
-  },
-  {
+  ] },
+  {"font": [
     "name": "SourceSansPro-LightIt",
     "angular": 58.27,
     "artistic": 33.14,
@@ -7078,8 +7078,8 @@
     "thin": 89.55,
     "warm": 41.33,
     "wide": 39.09
-  },
-  {
+  ] },
+  {"font": [
     "name": "SourceSansPro-Semibold",
     "angular": 20.38,
     "artistic": 9.95,
@@ -7118,8 +7118,8 @@
     "thin": 40.61,
     "warm": 71.26,
     "wide": 49.37
-  },
-  {
+  ] },
+  {"font": [
     "name": "StardosStencil-Bold",
     "angular": 41.25,
     "artistic": 42.29,
@@ -7158,8 +7158,8 @@
     "thin": 31.44,
     "warm": 75.97,
     "wide": 56.59
-  },
-  {
+  ] },
+  {"font": [
     "name": "Strait-Regular",
     "angular": 31.66,
     "artistic": 21.91,
@@ -7198,8 +7198,8 @@
     "thin": 60.14,
     "warm": 43.02,
     "wide": 38.26
-  },
-  {
+  ] },
+  {"font": [
     "name": "Syncopate-Bold",
     "angular": 22.51,
     "artistic": 36.92,
@@ -7238,8 +7238,8 @@
     "thin": 9.09,
     "warm": 62.75,
     "wide": 88.46
-  },
-  {
+  ] },
+  {"font": [
     "name": "Telex-Regular",
     "angular": 20.18,
     "artistic": 14.08,
@@ -7278,8 +7278,8 @@
     "thin": 50.55,
     "warm": 55.5,
     "wide": 51.16
-  },
-  {
+  ] },
+  {"font": [
     "name": "TenorSans",
     "angular": 28.16,
     "artistic": 9.93,
@@ -7318,8 +7318,8 @@
     "thin": 61.61,
     "warm": 52.17,
     "wide": 49.86
-  },
-  {
+  ] },
+  {"font": [
     "name": "Thabit",
     "angular": 31.65,
     "artistic": 22.59,
@@ -7358,8 +7358,8 @@
     "thin": 76.07,
     "warm": 33.58,
     "wide": 53.15
-  },
-  {
+  ] },
+  {"font": [
     "name": "Tinos",
     "angular": 33.37,
     "artistic": 15.72,
@@ -7398,8 +7398,8 @@
     "thin": 60.41,
     "warm": 63.77,
     "wide": 45.79
-  },
-  {
+  ] },
+  {"font": [
     "name": "Tinos-Bold",
     "angular": 40.04,
     "artistic": 28.53,
@@ -7438,8 +7438,8 @@
     "thin": 31.59,
     "warm": 80.86,
     "wide": 47.8
-  },
-  {
+  ] },
+  {"font": [
     "name": "TitanOne",
     "angular": 16.67,
     "artistic": 33.24,
@@ -7478,8 +7478,8 @@
     "thin": 10.01,
     "warm": 83.96,
     "wide": 65.84
-  },
-  {
+  ] },
+  {"font": [
     "name": "TitilliumWeb-Black",
     "angular": 16.31,
     "artistic": 25.17,
@@ -7518,8 +7518,8 @@
     "thin": 10.49,
     "warm": 60.22,
     "wide": 57.45
-  },
-  {
+  ] },
+  {"font": [
     "name": "TitilliumWeb-ThinItalic",
     "angular": 67.94,
     "artistic": 31.8,
@@ -7558,8 +7558,8 @@
     "thin": 87.72,
     "warm": 0,
     "wide": 38.65
-  },
-  {
+  ] },
+  {"font": [
     "name": "Trochut",
     "angular": 44.4,
     "artistic": 57.52,
@@ -7598,8 +7598,8 @@
     "thin": 55.91,
     "warm": 64.47,
     "wide": 38.15
-  },
-  {
+  ] },
+  {"font": [
     "name": "Trochut-Italic",
     "angular": 75.14,
     "artistic": 72.18,
@@ -7638,8 +7638,8 @@
     "thin": 61.19,
     "warm": 63.75,
     "wide": 36.88
-  },
-  {
+  ] },
+  {"font": [
     "name": "Tuffy-BoldItalic",
     "angular": 59.29,
     "artistic": 53.19,
@@ -7678,8 +7678,8 @@
     "thin": 35.72,
     "warm": 81.46,
     "wide": 51.06
-  },
-  {
+  ] },
+  {"font": [
     "name": "Tulpen",
     "angular": 51.9,
     "artistic": 48.84,
@@ -7718,8 +7718,8 @@
     "thin": 81.31,
     "warm": 26.36,
     "wide": 16.13
-  },
-  {
+  ] },
+  {"font": [
     "name": "Ubuntu-Italic",
     "angular": 72.65,
     "artistic": 44.04,
@@ -7758,8 +7758,8 @@
     "thin": 50.72,
     "warm": 58.39,
     "wide": 53.14
-  },
-  {
+  ] },
+  {"font": [
     "name": "UbuntuCondensed-Regular",
     "angular": 26.78,
     "artistic": 28.36,
@@ -7798,8 +7798,8 @@
     "thin": 55.66,
     "warm": 50.67,
     "wide": 39.52
-  },
-  {
+  ] },
+  {"font": [
     "name": "UbuntuMono-Bold",
     "angular": 34.52,
     "artistic": 34.94,
@@ -7838,8 +7838,8 @@
     "thin": 21.34,
     "warm": 55.58,
     "wide": 49.36
-  },
-  {
+  ] },
+  {"font": [
     "name": "UbuntuMono-Italic",
     "angular": 79.59,
     "artistic": 46.44,
@@ -7878,8 +7878,8 @@
     "thin": 61.99,
     "warm": 64.69,
     "wide": 46.81
-  },
-  {
+  ] },
+  {"font": [
     "name": "Voltaire",
     "angular": 29.96,
     "artistic": 27.54,
@@ -7918,8 +7918,8 @@
     "thin": 55,
     "warm": 52.45,
     "wide": 34.8
-  },
-  {
+  ] },
+  {"font": [
     "name": "Wellfleet-Regular",
     "angular": 44.35,
     "artistic": 35.76,
@@ -7958,8 +7958,8 @@
     "thin": 36.64,
     "warm": 67.82,
     "wide": 61.13
-  },
-  {
+  ] },
+  {"font": [
     "name": "YanoneTagesschrift",
     "angular": 33.49,
     "artistic": 61.72,
@@ -7998,5 +7998,5 @@
     "thin": 29.15,
     "warm": 92.78,
     "wide": 54.96
-  }
+  ] }
 ]

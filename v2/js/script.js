@@ -36,6 +36,7 @@ var fonts = [
 ];
 var numFonts = fonts.length;
 
+var fontHistory = [];
 //Reading json from https://stackoverflow.com/questions/19706046/how-to-read-an-external-local-json-file-in-javascript
 
 function readTextFile(file, callback) {
@@ -51,13 +52,15 @@ function readTextFile(file, callback) {
 }
 
 readTextFile("http://gyanl.com/what-font/v2/js/fontAttributes.json", function(text){
-    var fontdata = JSON.parse(text);
-    console.log(fontdata);
+    var fontData = JSON.parse(text);
 });
 
 function setDirections() {
-  alert(fontdata.name);
-
+  console.log("This works.");
+  for (x in fontData) {
+    console.log("x.name[0]");
+  }
+  //(fontdata.name[1]);
 }
 
 function genColor() {
@@ -99,6 +102,10 @@ function setBodyFont() {
   updateDescription();
 }
 
+function setBodyFontandBackground() {
+  setBodyFont();
+  randomiseBackground();
+}
 
 function alignLeft() {
   document.getElementById("body-text").style.textAlign = "left";
