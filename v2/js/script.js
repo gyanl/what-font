@@ -37,6 +37,25 @@ var fonts = [
 ];
 var numFonts = fonts.length;
 
+//Reading json from https://stackoverflow.com/questions/19706046/how-to-read-an-external-local-json-file-in-javascript
+
+function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
+}
+
+readTextFile("js/fontAttributes.json", function(text){
+    var data = JSON.parse(text);
+    console.log(data);
+});
+
 function genColor() {
     var a = "";
     for (var i = 0; i < 3; i++)
