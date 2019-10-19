@@ -37,6 +37,7 @@ var fonts = [
 ];
 var numFonts = fonts.length;
 
+
 function genColor() {
     var a = "";
     for (var i = 0; i < 3; i++)
@@ -144,5 +145,4 @@ function init() {
     document.getElementById("body-text").contentEditable = "false";
     document.getElementById("title-text").contentEditable = "false";
   }
-
 }

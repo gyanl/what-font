@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>fontbot-2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="fontbot-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fontbot" transform="translate(185.000000, 110.000000)" fill-rule="nonzero">
+            <path d="M114.528736,0.018091954 C177.755818,0.018091954 229.011494,51.2737688 229.011494,114.500851 L229.011494,489.213495 L0.0459770115,489.213495 L0.0459770115,114.500851 C0.0459770115,51.2737688 51.3016533,0.018091954 114.528736,0.018091954 Z" id="Rectangle" fill="#DDD8FF"></path>
+            <g id="eyes" transform="translate(69.011494, 72.632184)" fill="#2B2743">
+                <ellipse id="left-eye" cx="18.3908046" cy="18.4144736" rx="18.3908046" ry="18.4144736"></ellipse>
+                <ellipse id="right-eye" cx="78.1609195" cy="18.4144736" rx="18.3908046" ry="18.4144736"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
