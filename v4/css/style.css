@@ -8,13 +8,16 @@ body{
 	cursor: grab;
 	margin: 0;
 	display: block;
-	height: 100%;
+	max-height: 100%;
 	width: 100%;
+	height: 100%;
 	background: #2B2743;
+	overflow: hidden;
 }
 
 .topsection{
 	margin-top: 100px;
+	margin-bottom: 16px;
 }
 
 .instructions-primary{
@@ -26,7 +29,8 @@ body{
 .instructions-secondary{
 		color: #FFFFFF;
 		opacity: 75%;
-		margin-top: -12px;
+		margin-top: -14px;
+		margin-bottom: 24px;
 		font-size: 16px;
 		font-weight: 400;
 }
@@ -36,9 +40,9 @@ button{
 	border-radius: 36px;
 	background: #FF775F;
 	color: #FFFFFF;
-	padding: 18px 48px 18px 48px;
+	padding: 12px 32px 14px 32px;
 	border: none;
-	margin: 2px 0px 0px 0px;
+	margin: 0px 4px 0px 4px;
 	transition: .1s;
 }
 
@@ -50,13 +54,13 @@ button:hover{
 button:focus{
 	background: #E56A55;
 	outline:0;
-	margin: 0px 0px 2px 0px;
+	margin: -2px 4px 0px 4px;
 }
 
 button:active{
 	background: #E56A55;
 	transform: translateY(1px);
-	margin: 0px 0px 2px 0px;
+	margin: -2px 4px 0px 4px;
 }
 
 .instructions{
@@ -74,7 +78,7 @@ button:active{
 .fontbot{
 	position: absolute;
 	width: 360px;
-	margin-bottom: -15px;
+	margin-bottom: -20px;
 	margin-left: 0;
 	cursor: -webkit-grabbing;
 	cursor: grabbing;
@@ -112,11 +116,11 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 	}
 
 	5% {
-     d: path("M150,150.3 C157.440006,163.633333   167.240006,170.3 179.4,170.3     C191.559994,170.3 201.959994,163.633333 210.6,150.3");
+     d: path("M164,150.3 C162.506673,161.433333 171.820267,167 180,167 C188.179733,167 197.693327,161.433333 196.6,150.3");
   }
 
 	95% {
-		 d: path("M150,150.3 C157.440006,163.633333   167.240006,170.3 179.4,170.3     C191.559994,170.3 201.959994,163.633333 210.6,150.3");
+		 d: path("M164,150.3 C162.506673,161.433333 171.820267,167 180,167 C188.179733,167 197.693327,161.433333 196.6,150.3");
 	}
 
 	100% {
@@ -132,17 +136,36 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 	}
 
 	5% {
-     d: path("M150,150.3 C157.440006,163.633333   167.240006,170.3 179.4,170.3     C191.559994,170.3 201.959994,163.633333 210.6,150.3");
+     d: path("M164,150.3 C162.506673,161.433333 171.820267,167 180,167 C188.179733,167 197.693327,161.433333 196.6,150.3");
   }
 
 	95% {
-		 d: path("M150,150.3 C157.440006,163.633333   167.240006,170.3 179.4,170.3     C191.559994,170.3 201.959994,163.633333 210.6,150.3");
+		 d: path("M164,150.3 C162.506673,161.433333 171.820267,167 180,167 C188.179733,167 197.693327,161.433333 196.6,150.3");
 	}
 
 	100% {
 		d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C191.559994,150.3 201.959994,150.3 210.6,150.3");
 	}
 
+}
+
+.fontcard{
+	text-align: left;
+	background: #FFFFFF;
+	border-radius: 8px;
+	padding: 36px 40px 36px 40px;
+	max-width: 360px;
+}
+
+.fontname{
+	font-weight: 800;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.fontsample{
+	line-height: 1.4;
+	font-size: 18px;
 }
 
 @media (max-width:700px){
