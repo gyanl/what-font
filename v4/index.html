@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+  <script type="text/javascript" src="js/script.js"></script>
+
     <meta property="og:url"                content="http://gyanl.com/cutie" />
     <meta property="og:type"               content="article"/>
     <meta property="og:title"              content="Cutie" />
@@ -31,15 +33,15 @@
   <h2 class="instructions-primary">Welcome to FontBot</p>
   <p class="instructions-secondary">Show me something...</p>
   <button id="button1" type="button" name="button1">More serious</button>
-  <button id="button2" type="button" name="button2">Happier</button>
+  <button id="button2" type="button" name="button2" onclick="setBodyFont()">Random</button>
   <button id="button3" type="button" name="button3">More formal</button>
 </div>
 
 <div class="fontcard">
-  <div class="fontname">
+  <div class="fontname" id="info">
     Libre Franklin
   </div>
-  <div class="fontsample">
+  <div class="fontsample" id="body-text">
     Lorem ipsum is boring to read, so how about this paragraph about my favorite color? My favorite color is coral red. It’s sort of like red, sort of like orange, sort of like pink, but not quite any of them.
   </div>
 </div>

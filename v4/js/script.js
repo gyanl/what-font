@@ -55,7 +55,7 @@ function randomiseBackground() {
 }
 
 function updateDescription() {
-  document.getElementById("info").innerHTML = "You are using <a id='titlefontlink' target='_blank' rel='noopener noreferrer'>" + titleFont + "</a> with <a id='bodyfontlink' target='_blank' rel='noopener noreferrer'>" + bodyFont + "</a>. <br>Double click text to change font.";
+  document.getElementById("info").innerHTML = "<a id='titlefontlink' target='_blank' rel='noopener noreferrer'>" + bodyFont + "</a>";
 
   titleFontLink = "https://fonts.google.com/specimen/" + titleFont;
   bodyFontLink = "https://fonts.google.com/specimen/" + bodyFont;
