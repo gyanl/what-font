@@ -55,12 +55,9 @@ function randomiseBackground() {
 }
 
 function updateDescription() {
-  document.getElementById("info").innerHTML = "<a id='titlefontlink' target='_blank' rel='noopener noreferrer'>" + bodyFont + "</a>";
-
-  titleFontLink = "https://fonts.google.com/specimen/" + titleFont;
+  document.getElementById("info").innerHTML = "<a id='bodyfontlink' target='_blank' rel='noopener noreferrer'>" + bodyFont + "</a>";
   bodyFontLink = "https://fonts.google.com/specimen/" + bodyFont;
 
-  document.getElementById('titlefontlink').setAttribute('href', titleFontLink);
   document.getElementById('bodyfontlink').setAttribute('href', bodyFontLink);
 
 }

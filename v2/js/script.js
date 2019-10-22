@@ -7747,13 +7747,33 @@ function setDirections() {
     var temp = getRandomFontProperty();
     document.getElementById("tile-right").innerHTML= "More " + temp;
     document.getElementById("tile-left").innerHTML= "Less " + temp;
-    console.log(fontData.serif);
+
+    //for each (font in fontData.currentFontProperty){
+    //for each (property in fontData){
+    //console.log(fontData);
+    var index = 0;
+    var x = fontData;
+    console.log(x);
+
+    console.log(fontData.every("artistic"));
+
+    //var y = x.length;
+    //console.log(y);
+    //}
+
+    //for (i = 0; i < fontData.length; i++) {
+    //  console.log(fontData.serif.length);
+    //  console.log(fontData[i]);
+    //}
+
+    //console.log(fontData.serif);
     //console.log(fontData);
     //(fontdata.name[1]);
 }
 
 function moreOfThis() {
     bodyFont = randomiseFont();
+
     document.getElementById("body-text").style.fontFamily = bodyFont;
     updateDescription();
     setDirections();
