@@ -14,8 +14,22 @@ body{
 	background: #2B2743;
 }
 
+.circle{
+	background: #33FF33;
+	width: 12px;
+	height: 12px;
+	border-radius: 16px;
+	display: inline;
+}
+
 .eyes{
 	transition: .2s;
+}
+
+.suggestions{
+	padding: 0px 20px 0px 20px;
+	position: relative;
+	float: right;
 }
 
 .topsection{
@@ -183,7 +197,7 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 	margin-right: 20%;
 	background: #eee;
 	padding: 16px 20px 16px 20px;
-	border-radius: 12px 12px 4px 12px;
+	border-radius: 12px 12px 12px 4px;
 	color: #333;
 	font-weight: 800;
 	font-size: 16px;
@@ -202,6 +216,31 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 
 @media (max-width:700px){
 
+	.topsection{
+		z-index: 2;
+		margin-top: 0;
+		background: #FFFFFF;
+		opacity: .8;
+		border-radius: 0;
+		padding: 4px 40px 4px 40px;
+		max-width: 100%;
+		max-height: 20vh;
+		margin: 0;
+	}
+
+	.fontcard{
+		z-index: 1;
+		background: #FFFFFF;
+		border-radius: 0;
+		margin: 0;
+		padding: 12px 40px 12px 40px;
+		max-width: 100%;
+		margin-bottom: 20px;
+		max-height: 70vh;
+		overflow-y:scroll;
+		transition: .2s;
+	}
+
 	.instructions{
 		display: none;
 	}
@@ -214,7 +253,15 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 		text-align: center;
 	}
 
+	.message-sent{
+		margin-right: -20%;
+	}
+
+	.message-received{
+	}
+
 	.fontbot{
+		display: none;
 		margin-left: 50%;
 		-webkit-transform: translate(-50%,0);
 				-ms-transform: translate(-50%,0);
