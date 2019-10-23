@@ -1,0 +1,216 @@
+html{
+	height: 100%;
+}
+
+body{
+	font-family: sans-serif;
+	cursor: -webkit-grab;
+	cursor: grab;
+	margin: 0;
+	display: block;
+	max-height: 100%;
+	width: 100%;
+	height: 100%;
+	background: #2B2743;
+}
+
+.eyes{
+	transition: .2s;
+}
+
+.topsection{
+	margin-bottom: 16px;
+}
+
+.instructions-primary{
+		opacity: 90%;
+		font-size: 24px;
+}
+
+.instructions-secondary{
+		opacity: 75%;
+		margin-top: -14px;
+		margin-bottom: 24px;
+		font-size: 16px;
+		font-weight: 400;
+}
+
+button{
+	font-size: 20px;
+	border-radius: 36px;
+	background: #FF775F;
+	color: #FFFFFF;
+	padding: 12px 32px 14px 32px;
+	border: none;
+	margin: 0px 4px 0px 4px;
+	transition: .1s;
+}
+
+button:hover{
+	background: #FF846F;
+	transform: translateY(-2px);
+}
+
+button:focus{
+	background: #E56A55;
+	outline:0;
+	margin: -2px 4px 0px 4px;
+}
+
+button:active{
+	background: #E56A55;
+	transform: translateY(1px);
+	margin: -2px 4px 0px 4px;
+}
+
+.instructions{
+	font-size: 24px;
+	font-family: "Hoefler Text", sans-serif;
+	color: #fff;
+	padding-top: 5%;
+	text-align: center;
+}
+
+.instructions-mobile{
+	display: none;
+}
+
+.fontbot{
+	position: absolute;
+	width: 360px;
+	margin-bottom: -20px;
+	margin-left: 0;
+	cursor: -webkit-grabbing;
+	cursor: grabbing;
+	bottom: 0;
+	-webkit-transition: .25s;
+	-o-transition: .25s;
+	transition: .25s;
+	opacity: .95;
+}
+
+.fontbot:hover{
+	margin-bottom: 0px;
+	opacity: 1;
+}
+
+#face-smile{
+d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C191.559994,150.3 201.959994,150.3 210.6,150.3");
+}
+
+.smile{
+	-webkit-animation-name: smile;
+	        animation-name: smile;
+	-webkit-animation-duration: 3s;
+	        animation-duration: 3s;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes smile {
+
+	0% {
+		d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C191.559994,150.3 201.959994,150.3 210.6,150.3");
+	}
+
+	5% {
+     d: path("M164,150.3 C162.506673,161.433333 171.820267,167 180,167 C188.179733,167 197.693327,161.433333 196.6,150.3");
+  }
+
+	95% {
+		 d: path("M164,150.3 C162.506673,161.433333 171.820267,167 180,167 C188.179733,167 197.693327,161.433333 196.6,150.3");
+	}
+
+	100% {
+		d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C191.559994,150.3 201.959994,150.3 210.6,150.3");
+	}
+
+}
+
+@keyframes smile {
+
+	0% {
+		d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C191.559994,150.3 201.959994,150.3 210.6,150.3");
+	}
+
+	5% {
+     d: path("M164,150.3 C162.506673,161.433333 171.820267,167 180,167 C188.179733,167 197.693327,161.433333 196.6,150.3");
+  }
+
+	95% {
+		 d: path("M164,150.3 C162.506673,161.433333 171.820267,167 180,167 C188.179733,167 197.693327,161.433333 196.6,150.3");
+	}
+
+	100% {
+		d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C191.559994,150.3 201.959994,150.3 210.6,150.3");
+	}
+
+}
+
+.fontcard{
+	margin-top: 100px;
+	background: #FFFFFF;
+	border-radius: 8px;
+	padding: 36px 40px 36px 40px;
+	max-width: 400px;
+	margin-bottom: 20px;
+	max-height: 600px;
+	overflow-y:scroll;
+}
+
+.message-sent{
+	text-align: right;
+	width: auto;
+	margin-left: 20%;
+	background: #ff4343;
+	padding: 16px 20px 16px 20px;
+	border-radius: 12px 12px 4px 12px;
+	color: #fff;
+	font-weight: 800;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.message-received{
+	text-align: left;
+	margin-right: 20%;
+	background: #ff4343;
+	padding: 16px 20px 16px 20px;
+	border-radius: 12px 12px 4px 12px;
+	color: #fff;
+	font-weight: 800;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.fontname{
+
+}
+
+.fontsample{
+	line-height: 1.4;
+	font-size: 18px;
+}
+
+@media (max-width:700px){
+
+	.instructions{
+		display: none;
+	}
+
+	.instructions-mobile{
+		font-size: 24px;
+		font-family: "Hoefler Text", sans-serif;
+		color: #fff;
+		padding-top: 5%;
+		text-align: center;
+	}
+
+	.fontbot{
+		margin-left: 50%;
+		-webkit-transform: translate(-50%,0);
+				-ms-transform: translate(-50%,0);
+						transform: translate(-50%,0);
+	}

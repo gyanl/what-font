@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cutie</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+  <script type="text/javascript" src="js/script.js"></script>
+
+    <meta property="og:url"                content="http://gyanl.com/cutie" />
+    <meta property="og:type"               content="article"/>
+    <meta property="og:title"              content="Cutie" />
+    <meta property="og:description"        content="Cutie just wants you to pet it." />
+    <meta property="og:image"              content="https://gyanl.com/cutie/img/cutie.png" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77722386-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-77722386-2');
+    </script>
+
+</head>
+
+<body onload="init()">
+<center>
+
+<div id="conversation" class="fontcard">
+  <div class="topsection">
+  <h2 class="instructions-primary">Welcome to FontBot</p>
+  <p class="instructions-secondary">Show me something...</p>
+</div>
+
+<div class="message-received">
+<div class="fontname" id="info">
+  Libre Franklin
+</div>
+  <div class="fontsample" id="body-text">
+    Lorem ipsum is boring to read, so how about this paragraph about my favorite color? My favorite color is coral red. It’s sort of like red, sort of like orange, sort of like pink, but not quite any of them.
+  </div>
+</div>
+
+<!--
+More gets added here.
+-->
+
+
+</div>
+
+<button id="button1" type="button" name="button1" onclick="lessOfThis()"></button>
+<button id="button2" type="button" name="button2" onclick="setBodyFont()">Random</button>
+
+</center>
+
+
+  <svg class="fontbot" id="fontbot" width="360px" height="360px" viewBox="0 0 360 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+      <g onclick="randomiseBackground()" onmouseover="smileBot()" id="fontbot" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="fontbot" transform="translate(111.000000, 66.000000)" fill-rule="nonzero">
+              <path id="botbody" fill="#DDD8FF" d="M68.7172414,0.0108551724 C106.653491,0.0108551724 137.406897,30.7642613 137.406897,68.7005103 L137.406897,293.528097 L0.0275862069,293.528097 L0.0275862069,68.7005103 C0.0275862069,30.7642613 30.780992,0.0108551724 68.7172414,0.0108551724 Z" ></path>
+              <g id="eyes" transform="translate(40, 42)" fill="#2B2743" stroke="#DDD8FF" stroke-width="3">
+                  <ellipse id="left-eye" cx="10" cy="8" rx="14" ry="14"></ellipse>
+                  <ellipse id="right-eye" cx="48" cy="8" rx="14" ry="14"></ellipse>
+              </g>
+          </g>
+
+          <path transform="translate(0, 10)" id="face-smile" stroke="#FFFFFF" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round">
+          </path>
+
+      </g>
+  </svg>
+    <script>
+
+      var eyes = document.getElementById('eyes');
+      var leftEye = document.getElementById('left-eye');
+      var rightEye = document.getElementById('right-eye');
+
+      var fontbot = document.getElementById('fontbot');
+      var smile = document.getElementById('face-smile');
+
+      document.body.addEventListener("mousemove", updateEyes);
+      document.body.addEventListener("touchstart", updateEyes);
+
+      function updateEyes() {
+        var posx = (event.clientX-(screen.width/2));
+        var posy = (event.clientY-(screen.height/4));
+        //console.log(posx + " and " + posy);
+
+        var transformLeft = ' translate(' + posx/24 + ',' + posy/20 + ')';
+        var transformRight = ' translate(' + posx/20 + ',' + posy/20 + ')';
+
+        leftEye.setAttribute('transform', transformLeft);
+        rightEye.setAttribute('transform', transformRight);
+
+      }
+
+
+      function smileBot() {
+        smile.classList.add("smile");
+
+          smile.addEventListener( "animationend",  function() {
+          smile.classList.remove("smile");
+        } );
+      }
+
+      function genColor() {
+    var a = "";
+    for (var i = 0; i < 3; i++)
+        a = a.concat(Math.floor(Math.random() * 255).toString(16));
+
+    if (a.length < 6) {
+        for (var i = 0; i < (6 - a.length); i++)
+            a = "0" + a;
+    }
+    return "#" + a;
+}
+
+function randomiseBackground() {
+  var bgColor = genColor();
+  document.body.style.background = bgColor;
+}
+
+    </script>
+
+</body>
+
+</html>
