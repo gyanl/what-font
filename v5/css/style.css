@@ -42,14 +42,14 @@ body{
 
 .instructions-primary{
 		opacity: 90%;
-		font-size: 24px;
+		font-size: 20px;
 }
 
 .instructions-secondary{
 		opacity: 75%;
 		margin-top: -14px;
-		margin-bottom: 24px;
-		font-size: 16px;
+		margin-bottom: 12px;
+		font-size: 14px;
 		font-weight: 400;
 }
 
@@ -226,6 +226,18 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 		max-width: 100%;
 		max-height: 20vh;
 		margin: 0;
+		font-size: 12px;
+	}
+
+	.instructions-primary{
+			opacity: 90%;
+			font-size: 20px;
+			text-align: left;
+	}
+
+	.instructions-secondary{
+		text-align: left;
+		color: #38DF8F;
 	}
 
 	.fontcard{
