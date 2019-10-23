@@ -6468,13 +6468,15 @@ function setDirections() {
     document.getElementById("tile-left").innerHTML= "Less " + temp;
 }
 
-function moreOfThis() {
+function lessOfThis() {
     var winnerFont = "";
-    var diff = fontData[currentFontProperty][bodyFont];
+    var propBodyFont = fontData[currentFontProperty][bodyFont];
+    var diff = 0;
     for (fontname in fontData[currentFontProperty]) {
 
-              if (Math.abs(fontData[currentFontProperty][fontname] - diff) > diff){
+    if ((fontData[currentFontProperty][fontname]-propBodyFont) < diff){
                 console.log("Picked " + fontname);
+                diff = fontData[currentFontProperty][fontname]-propBodyFont;
                 winnerFont = fontname;
               };
               console.log("Current Font : "+ fontname);
@@ -6489,12 +6491,14 @@ function moreOfThis() {
     setDirections();
 }
 
-function lessOfThis() {
+function moreOfThis() {
   var winnerFont = "";
-  var diff = 0;
+  var propBodyFont = fontData[currentFontProperty][bodyFont];
+  var diff = 200;
   for (fontname in fontData[currentFontProperty]) {
-            if (Math.abs(fontData[currentFontProperty][fontname]) > diff){
+            if ((fontData[currentFontProperty][fontname]-propBodyFont) < diff){
               console.log("Picked " + fontname);
+              diff = fontData[currentFontProperty][fontname];
               winnerFont = fontname;
             };
             console.log("Current Font : "+ fontname);
