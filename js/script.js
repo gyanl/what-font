@@ -34,7 +34,75 @@ var fonts = [
   "Gentium Book Basic",
   "IBM Plex Mono",
   "Chivo"
-];
+]
+
+//   "Arimo"
+//   "Bentham
+//   "Cabin
+//   Cabin Condensed
+//   Cantora One
+//   Simonetta
+//   Signika
+//   Rosarivo
+//   Ropa Sans
+//   Rambla
+//   Quattrocento Sans
+//   Puritan
+//   PT Sans
+//   Oranienbaum
+//   Enriqueta
+//   Fanwood Text
+//   Goudy Bookletter 1911
+//   Headland One
+//   IM Fell Great Primer
+//   Lora
+//   Maven Pro
+//   Old Standard TT
+//   Nobile
+//   Neuton
+//   Nanum Gothic
+// ];
+// 
+// var titleFonts = [
+//   "Astloch",
+//   Bentham
+//   Bevan
+//   Bowlby One
+//   Bubbler One
+//   Share Tech
+//   Share
+//   Passero One
+//   Francois One
+//   Fredoka One
+//   GFS Didot
+//   Josefin Sans
+//   Jura
+//   Kelly Slab
+//
+// ];
+//
+// var monospaceFonts = [
+//   Source Code Pro
+//   Lekton
+//   Nova Mono
+//
+// ];
+//
+// var condensedSans = [
+//   Marvel
+// ]
+//
+// var displayFonts = [
+//   Kenia
+//   Life Savers
+//   Julius Sans One
+//   Megrim
+//   Oldenburg
+//   Nova Mono
+//   Modern Antiqua
+//
+// ]
+
 var numFonts = fonts.length;
 
 function genColor() {
