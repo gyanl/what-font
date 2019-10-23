@@ -6473,7 +6473,7 @@ function lessOfThis() {
     var propBodyFont = fontData[currentFontProperty][bodyFont];
     var diff = 0;
     for (fontname in fontData[currentFontProperty]) {
-
+    var counter = 0;
     if ((fontData[currentFontProperty][fontname]-propBodyFont) < diff){
                 console.log("Picked " + fontname);
                 diff = fontData[currentFontProperty][fontname]-propBodyFont;
