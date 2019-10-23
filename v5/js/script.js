@@ -6284,11 +6284,11 @@ var fontData = {
 var string1 = "<div class='message-received'><div class='fontname' id='info'>";
 var string2 = "</div><div class='fontsample' style='font-family: ";
 var string3 = ";' id='body-text'>";
-var string4 = "Lorem ipsum is boring to read.";
+var string4 = "Lorem ipsum is boring to read, so how about this paragraph about my favorite color? My favorite color is coral red. It’s sort of like red, sort of like orange, sort of like pink, but not quite any of them.";
 var string5 = "</div></div>";
 
 function getMessage(){
-  document.getElementById("conversation").innerHTML += string1 + "You are using " + bodyFont + ".<br>" + string2 + simpleBodyFont + string3 + string4 + string5;
+  document.getElementById("conversation").innerHTML += string1 + "<a href='" + bodyFontLink + "'>" + bodyFont +  "</a><br>" + string2 + simpleBodyFont + string3 + string4 + string5;
 }
 
 function sendMessageLess(){
@@ -6575,8 +6575,8 @@ function updateDescription() {
   simpleBodyFont = fontData["name"][bodyFont];
   bodyFontLink = "https://fonts.google.com/specimen/" + simpleBodyFont;
 
-  document.getElementById("info").innerHTML = "You are using <a id='bodyfontlink' target='_blank' rel='noopener noreferrer'>" + bodyFont + "</a>.";
-  document.getElementById('bodyfontlink').setAttribute('href', bodyFontLink);
+  //document.getElementById("info").innerHTML = "You are using <a id='bodyfontlink' target='_blank' rel='noopener noreferrer'>" + bodyFont + "</a>.";
+  //document.getElementById('bodyfontlink').setAttribute('href', bodyFontLink);
 }
 
 function randomiseFont() {

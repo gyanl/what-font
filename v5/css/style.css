@@ -19,7 +19,11 @@ body{
 }
 
 .topsection{
-	margin-bottom: 16px;
+	margin-top: 50px;
+	background: #FFFFFF;
+	border-radius: 8px 8px 0 0;
+	padding: 12px 40px 12px 40px;
+	max-width: 400px;
 }
 
 .instructions-primary{
@@ -67,7 +71,6 @@ button:active{
 	font-size: 24px;
 	font-family: "Hoefler Text", sans-serif;
 	color: #fff;
-	padding-top: 5%;
 	text-align: center;
 }
 
@@ -150,17 +153,18 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 }
 
 .fontcard{
-	margin-top: 100px;
 	background: #FFFFFF;
-	border-radius: 8px;
+	border-radius: 0 0 8px 8px;
 	padding: 36px 40px 36px 40px;
 	max-width: 400px;
 	margin-bottom: 20px;
-	max-height: 600px;
+	max-height: 400px;
 	overflow-y:scroll;
+	transition: .2s;
 }
 
 .message-sent{
+	display: inline-block;
 	text-align: right;
 	width: auto;
 	margin-left: 20%;
@@ -171,18 +175,20 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 	font-weight: 800;
 	font-size: 14px;
 	margin-bottom: 8px;
+	transition: .2s;
 }
 
 .message-received{
 	text-align: left;
 	margin-right: 20%;
-	background: #ff4343;
+	background: #eee;
 	padding: 16px 20px 16px 20px;
 	border-radius: 12px 12px 4px 12px;
-	color: #fff;
+	color: #333;
 	font-weight: 800;
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 8px;
+	transition: .2s;
 }
 
 .fontname{
