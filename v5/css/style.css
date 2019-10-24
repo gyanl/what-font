@@ -28,8 +28,8 @@ body{
 
 .suggestions{
 	padding: 0px 20px 0px 20px;
-	margin-left: 50%;
-	transform: translateX(-50%);
+	position: absolute;
+	margin: auto;
 }
 
 .topsection{
@@ -38,8 +38,6 @@ body{
 	border-radius: 8px 8px 0 0;
 	padding: 12px 40px 12px 40px;
 	max-width: 500px;
-	margin-left: 50%;
-	transform: translateX(-50%);
 }
 
 .instructions-primary{
@@ -62,7 +60,7 @@ button{
 	color: #fff;
 	padding: 12px 28px 14px 28px;
 	border: none;
-	margin: 4px;
+	margin: 0px 4px 0px 4px;
 	transition: .1s;
 }
 
@@ -174,8 +172,6 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 	max-height: 400px;
 	overflow-y:scroll;
 	transition: .2s;
-	margin-left: 50%;
-	transform: translateX(-50%);
 }
 
 .message-sent{
