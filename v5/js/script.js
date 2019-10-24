@@ -6283,8 +6283,9 @@ var fontData = {
 
 var string1 = "<div class='message-received'>";
 var string2 = "<div class='fontsample' style='font-family: ";
-var string3 = ";' id='body-text'>";
-var string4 = "Lorem ipsum is boring to read, so how about this paragraph about my favorite color? My favorite color is coral red. It’s sort of like red, sort of like orange, sort of like pink, but not quite any of them.</div><div class='fontname' id='info'>";
+var string3 = ";'>";
+//var string3 = ";' id='body-text'>";
+var string4 = "Lorem ipsum is boring to read, so how about this paragraph about my favorite color? My favorite color is coral red. It’s sort of like red, sort of like orange, sort of like pink, but not quite any of them.</div><p><div class='fontname' id='info'>";
 var string5 = "</div></div>";
 
 var responseDelay = 1200;
@@ -6292,6 +6293,7 @@ var responseDelay = 1200;
 function getMessage(){
   document.getElementById("conversation").innerHTML += string1 + string2 + simpleBodyFont + string3 + string4 + "<br><a href='" + bodyFontLink + "'>" + bodyFont +  "</a>" + string5;
   scrollConversation();
+
 }
 
 function sendMessageLess(){
@@ -6500,7 +6502,7 @@ function getRandomFontProperty() {
 
 function setDirections() {
     var temp = getRandomFontProperty();
-    document.getElementById("button1").innerHTML= "Less " + temp;
+    document.getElementById("button1").innerHTML= "Something less " + temp;
 }
 
 function lessOfThis() {
@@ -6525,7 +6527,7 @@ function lessOfThis() {
           }
     bodyFont = winnerFont;
     simpleBodyFont = fontData["name"][bodyFont];
-    document.getElementById("body-text").style.fontFamily = simpleBodyFont;
+    //document.getElementById("body-text").style.fontFamily = simpleBodyFont;
     updateDescription();
     setDirections();
 }
@@ -6594,7 +6596,8 @@ function setBodyFont() {
   setTimeout(getMessage, responseDelay);
   bodyFont = randomiseFont();
   simpleBodyFont = fontData["name"][bodyFont];
-  document.getElementById("body-text").style.fontFamily = simpleBodyFont;
+  //document.getElementById("body-text").style.fontFamily = simpleBodyFont;
+  setDirections();
   updateDescription();
 }
 

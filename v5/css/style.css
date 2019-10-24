@@ -37,7 +37,7 @@ body{
 	background: #FFFFFF;
 	border-radius: 8px 8px 0 0;
 	padding: 12px 40px 12px 40px;
-	max-width: 400px;
+	max-width: 500px;
 }
 
 .instructions-primary{
@@ -56,27 +56,24 @@ body{
 button{
 	font-size: 20px;
 	border-radius: 36px;
-	background: #FF775F;
-	color: #FFFFFF;
-	padding: 12px 32px 14px 32px;
+	background: #999;
+	color: #fff;
+	padding: 12px 28px 14px 28px;
 	border: none;
 	margin: 0px 4px 0px 4px;
 	transition: .1s;
 }
 
 button:hover{
-	background: #FF846F;
 	transform: translateY(-2px);
 }
 
 button:focus{
-	background: #E56A55;
 	outline:0;
 	margin: -2px 4px 0px 4px;
 }
 
 button:active{
-	background: #E56A55;
 	transform: translateY(1px);
 	margin: -2px 4px 0px 4px;
 }
@@ -170,7 +167,7 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 	background: #FFFFFF;
 	border-radius: 0 0 8px 8px;
 	padding: 36px 40px 36px 40px;
-	max-width: 400px;
+	max-width: 500px;
 	margin-bottom: 20px;
 	max-height: 400px;
 	overflow-y:scroll;
@@ -178,49 +175,54 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 }
 
 .message-sent{
-	display: inline-block;
+	float: right;
 	text-align: right;
 	width: auto;
-	margin-left: 20%;
 	background: #ff4343;
 	padding: 16px 20px 16px 20px;
 	border-radius: 12px 12px 4px 12px;
 	color: #fff;
-	font-weight: 800;
 	font-size: 14px;
 	margin-bottom: 8px;
 	transition: .2s;
 }
 
+.message-received.clear {
+  clear: both;
+}
+
 .message-received{
 	text-align: left;
-	margin-right: 20%;
 	background: #eee;
 	padding: 16px 20px 16px 20px;
 	border-radius: 12px 12px 12px 4px;
 	color: #333;
-	font-weight: 800;
 	font-size: 16px;
 	margin-bottom: 8px;
 	transition: 1s;
 }
 
 .fontname{
-
+	display: inline;
 }
 
 .fontsample{
 	line-height: 1.4;
 	font-size: 18px;
+	display: inline-block;
 }
 
 @media (max-width:700px){
 
+	.body{
+			background: #FFF !important;
+	}
+
 	.topsection{
 		z-index: 2;
 		margin-top: 0;
-		background: #FFFFFF;
-		opacity: .8;
+		background: #fefefe;
+		opacity: .95;
 		border-radius: 0;
 		padding: 4px 40px 4px 40px;
 		max-width: 100%;
@@ -237,20 +239,21 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 
 	.instructions-secondary{
 		text-align: left;
+		font-size: 16px;
 		color: #38DF8F;
 	}
 
 	.fontcard{
+		position: relative;
 		z-index: 1;
 		background: #FFFFFF;
 		border-radius: 0;
-		margin: 0;
 		padding: 12px 40px 12px 40px;
-		max-width: 100%;
-		margin-bottom: 20px;
-		max-height: 70vh;
+		max-width: auto;
+		max-height: auto;
 		overflow-y:scroll;
 		transition: .2s;
+		margin-bottom: 0;
 	}
 
 	.instructions{
@@ -266,10 +269,14 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 	}
 
 	.message-sent{
-		margin-right: -20%;
+		margin-right: -12px;
+		margin-top: -8px;
+		position: relative;
+		float: right;
 	}
 
 	.message-received{
+		margin-bottom: 24px;
 	}
 
 	.fontbot{
@@ -281,6 +288,41 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 	}
 
 	.suggestions{
-		position: relative;
-		float: right;
+		height: 100px;
+		position: fixed;
+		padding: 8px;
+		bottom: 0;
+		background: #fefefe;
+		width: auto;
+		margin-top: 0;
+		display: inline-block;
+		opacity: .95;
 	}
+
+	button{
+		border-radius: 8px 8px 2px 8px;
+		font-size: 16px;
+		margin: 4px;
+		float: right;
+		background: #999;
+		color: #fff;
+	}
+
+	button:hover{
+		background: #555;
+		transform: none;
+		margin: 4px;
+	}
+
+	button:focus{
+		background: #777;
+		outline:0;
+		margin: 4px;
+	}
+
+	button:active{
+		background: #777;
+		transform: none;
+		margin: 4px;
+	}
+}
