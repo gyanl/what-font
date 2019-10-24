@@ -6281,22 +6281,27 @@ var fontData = {
   }
 };
 
-var string1 = "<div class='message-received'><div class='fontname' id='info'>";
-var string2 = "</div><div class='fontsample' style='font-family: ";
+var string1 = "<div class='message-received'>";
+var string2 = "<div class='fontsample' style='font-family: ";
 var string3 = ";' id='body-text'>";
-var string4 = "Lorem ipsum is boring to read, so how about this paragraph about my favorite color? My favorite color is coral red. It’s sort of like red, sort of like orange, sort of like pink, but not quite any of them.";
+var string4 = "Lorem ipsum is boring to read, so how about this paragraph about my favorite color? My favorite color is coral red. It’s sort of like red, sort of like orange, sort of like pink, but not quite any of them.</div><div class='fontname' id='info'>";
 var string5 = "</div></div>";
 
+var responseDelay = 1200;
+
 function getMessage(){
-  document.getElementById("conversation").innerHTML += string1 + "<a href='" + bodyFontLink + "'>" + bodyFont +  "</a><br>" + string2 + simpleBodyFont + string3 + string4 + string5;
+  document.getElementById("conversation").innerHTML += string1 + string2 + simpleBodyFont + string3 + string4 + "<br><a href='" + bodyFontLink + "'>" + bodyFont +  "</a>" + string5;
+  scrollConversation();
 }
 
 function sendMessageLess(){
   document.getElementById("conversation").innerHTML += "<div class='message-sent'>Show me something less " + currentFontProperty + ".</div>";
+  scrollConversation();
 }
 
 function sendMessageRandom(){
-  document.getElementById("conversation").innerHTML += "<div class='message-sent'>Show me something random.</div>";
+  document.getElementById("conversation").innerHTML += "<div class='message-sent'>Show me a random font!</div>";
+  scrollConversation();
 }
 
 function scrollConversation(){
@@ -6501,7 +6506,7 @@ function setDirections() {
 function lessOfThis() {
 
     sendMessageLess();
-    getMessage();
+    setTimeout(getMessage, responseDelay);
 
     var winnerFont = "";
     var propBodyFont = fontData[currentFontProperty][bodyFont];
@@ -6523,8 +6528,6 @@ function lessOfThis() {
     document.getElementById("body-text").style.fontFamily = simpleBodyFont;
     updateDescription();
     setDirections();
-
-    scrollConversation();
 }
 
 function moreOfThis() {
@@ -6588,12 +6591,11 @@ function randomiseFont() {
 
 function setBodyFont() {
   sendMessageRandom();
-  getMessage();
+  setTimeout(getMessage, responseDelay);
   bodyFont = randomiseFont();
   simpleBodyFont = fontData["name"][bodyFont];
   document.getElementById("body-text").style.fontFamily = simpleBodyFont;
   updateDescription();
-  scrollConversation();
 }
 
 function setBodyFontandBackground() {
@@ -6622,7 +6624,7 @@ function textSmaller() {
 }
 
 function init() {
-  setBodyFont();
+  //setBodyFont();
   setDirections();
   randomiseBackground();
   updateDescription();

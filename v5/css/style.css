@@ -28,12 +28,12 @@ body{
 
 .suggestions{
 	padding: 0px 20px 0px 20px;
-	position: relative;
-	float: right;
+	position: absolute;
+	margin: auto;
 }
 
 .topsection{
-	margin-top: 50px;
+	margin-top: 36px;
 	background: #FFFFFF;
 	border-radius: 8px 8px 0 0;
 	padding: 12px 40px 12px 40px;
@@ -46,9 +46,9 @@ body{
 }
 
 .instructions-secondary{
-		opacity: 75%;
-		margin-top: -14px;
-		margin-bottom: 12px;
+		opacity: 50%;
+		margin-top: -12px;
+		margin-bottom: 0px;
 		font-size: 14px;
 		font-weight: 400;
 }
@@ -202,7 +202,7 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 	font-weight: 800;
 	font-size: 16px;
 	margin-bottom: 8px;
-	transition: .2s;
+	transition: 1s;
 }
 
 .fontname{
@@ -278,4 +278,9 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 		-webkit-transform: translate(-50%,0);
 				-ms-transform: translate(-50%,0);
 						transform: translate(-50%,0);
+	}
+
+	.suggestions{
+		position: relative;
+		float: right;
 	}
