@@ -34,6 +34,11 @@ body{
 	max-width: 500px;
 }
 
+.instructions{
+	color: #fff;
+	font-size: 18px;
+}
+
 .instructions-primary{
 		opacity: 90%;
 		font-size: 20px;
