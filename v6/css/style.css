@@ -206,11 +206,13 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 
 .message-received{
 	text-align: left;
-	background: #eee;
+	max-width: 400px;
+	margin-top: 24px;
+	background: #fff;
 	padding: 16px 20px 16px 20px;
 	border-radius: 12px 12px 12px 4px;
 	color: #333;
-	font-size: 16px;
+	font-size: 20px;
 	margin-bottom: 8px;
 	transition: 1s;
 }
