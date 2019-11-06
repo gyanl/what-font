@@ -205,15 +205,17 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 }
 
 .message-received{
+	display: inline-block;
+	vertical-align: top;
 	text-align: left;
-	max-width: 400px;
+	max-width: 360px;
 	margin-top: 24px;
 	background: #fff;
 	padding: 16px 20px 16px 20px;
 	border-radius: 12px 12px 12px 4px;
 	color: #333;
 	font-size: 20px;
-	margin-bottom: 8px;
+	margin: 10px;
 	transition: 1s;
 }
 
@@ -229,115 +231,22 @@ d: path("M150,150.3 C157.440006,150.3        167.240006,150.3 179.4,150.3     C1
 
 @media (max-width:700px){
 
-	.body{
-			background: #FFF !important;
-	}
-
-	.topsection{
-		z-index: 2;
-		margin-top: 0;
-		background: #fefefe;
-		opacity: .95;
-		border-radius: 0;
-		padding: 4px 40px 4px 40px;
-		max-width: 100%;
-		max-height: 20vh;
-		margin: 0;
-		font-size: 12px;
-	}
-
-	.instructions-primary{
-			opacity: 90%;
-			font-size: 20px;
-			text-align: left;
-	}
-
-	.instructions-secondary{
-		text-align: left;
-		font-size: 16px;
-		color: #38DF8F;
-	}
-
-	.fontcard{
-		position: relative;
-		z-index: 1;
-		background: #FFFFFF;
-		border-radius: 0;
-		padding: 12px 40px 12px 40px;
-		max-width: auto;
-		max-height: auto;
-		overflow-y:scroll;
-		transition: .2s;
-		margin-bottom: 0;
-	}
-
-	.instructions{
-		display: none;
-	}
-
-	.instructions-mobile{
-		font-size: 24px;
-		font-family: "Hoefler Text", sans-serif;
-		color: #fff;
-		padding-top: 5%;
-		text-align: center;
-	}
-
-	.message-sent{
-		margin-right: -12px;
-		margin-top: -8px;
-		position: relative;
-		float: right;
-	}
-
-	.message-received{
-		margin-bottom: 24px;
-	}
-
-	.fontbot{
-		display: none;
-		margin-left: 50%;
-		-webkit-transform: translate(-50%,0);
-				-ms-transform: translate(-50%,0);
-						transform: translate(-50%,0);
-	}
-
 	.suggestions{
-		height: 100px;
-		position: fixed;
-		padding: 8px;
-		bottom: 0;
-		background: #fefefe;
-		width: auto;
-		margin-top: 0;
+		max-width: 100%;
 		display: inline-block;
-		opacity: .95;
+		padding: 0px 20px 0px 20px;
 	}
+
 
 	button{
-		border-radius: 8px 8px 2px 8px;
-		font-size: 16px;
-		margin: 4px;
-		float: right;
-		background: #999;
-		color: #fff;
+		font-size: 14px;
+		background: #fff;
+		color: #333;
+		border-radius: 36px;
+		padding: 10px 24px 12px 24px;
+		border: none;
+		margin: 4px 2px 4px 2px;
+		transition: .1s;
 	}
 
-	button:hover{
-		background: #555;
-		transform: none;
-		margin: 4px;
-	}
-
-	button:focus{
-		background: #777;
-		outline:0;
-		margin: 4px;
-	}
-
-	button:active{
-		background: #777;
-		transform: none;
-		margin: 4px;
-	}
 }

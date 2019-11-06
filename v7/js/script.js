@@ -6482,7 +6482,9 @@ Array.prototype.remove = function() {
 
 function init(){
   for (fontname in fontData["name"]){
-    getElementById("adjectives").innerHTML += "<button id='" + fontname + "' type='button' onclick='setActive(this.id)'>" + fontname + "</button>";
+    var adj = document.getElementById('adjectives');
+    adj.innerHTML += "<button id='" + fontname + "' type='button' onclick='displayFonts(this.id)'>" + fontname + "</button>";
+}
 }
 
 function setActive(currentFont){
