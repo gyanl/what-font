@@ -6537,6 +6537,7 @@ function displayFonts() {
   var string5 = "</div></div>";
 
   document.getElementById("conversation").innerHTML = "";
+  document.getElementById("descriptor").innerHTML = "Showing fonts that are " + activeAdjectives;
 
   var simpleBodyFont = fontData["name"][fonts[indexOfMax(values)]];
   var bodyFontLink = "https://fonts.google.com/specimen/" + simpleBodyFont;

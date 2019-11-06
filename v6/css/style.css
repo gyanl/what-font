@@ -39,6 +39,13 @@ body{
 	font-size: 18px;
 }
 
+#descriptor{
+	color: #fff;
+	margin-top: 20px;
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
 .instructions-primary{
 		opacity: 90%;
 		font-size: 20px;
