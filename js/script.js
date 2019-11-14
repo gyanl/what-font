@@ -33,7 +33,12 @@ var fonts = [
   "Ultra",
   "Gentium Book Basic",
   "IBM Plex Mono",
-  "Chivo"
+  "Chivo",
+  "Saira",
+  "Scope One",
+  "Magra",
+  "Metrophobic",
+  "Rufina"
 ]
 
 //   "Arimo"
