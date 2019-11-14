@@ -14,9 +14,9 @@ var bgColor = "";
 var mytitle = document.getElementById("title-text");
 var mybody = document.getElementById("body-text");
 var fonts = [
-  "AbeeZee",
+  "ABeeZee",
   "Abel",
-  "Alfaslab One",
+  "Alfa Slab One",
   "Amaranth",
   "Anonymous Pro",
   "Arimo",
@@ -32,7 +32,6 @@ var fonts = [
   "Domine",
   "Dosis",
   "EB Garamond",
-  "Fira Sans",
   "Fira Sans",
   "Francois One",
   "Gentium Book Basic",
@@ -68,11 +67,9 @@ var fonts = [
   "Sintony",
   "Slabo 13px",
   "Space Mono",
-  "Space Mono",
-  "Stint Ultra",
+  "Stint Ultra Expanded",
   "Taviraj",
   "Titillium Web",
-  "Ultra",
   "Ultra",
   "Work Sans"
 ]
